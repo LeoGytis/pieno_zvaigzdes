@@ -1,11 +1,13 @@
 import HeaderBanner from "./HeaderBanner";
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
 
 const Header: any = () => {
-    return <header><Navbar/>
-    <HeaderBanner/>
-    </header>;
-  };
-  
-  
-  export default Header
+  return (
+    <header>
+      <NavBar/>
+      <HeaderBanner />
+    </header>
+  );
+};
+
+export default Header;
