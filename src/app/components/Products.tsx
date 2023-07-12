@@ -1,30 +1,4 @@
-const ProductsArray = [
-  {
-    id: 484848,
-    title: "Cheese Sticks",
-    img: "/cheese_sticks.png",
-  },
-  {
-    id: 797979,
-    title: "Yogurt",
-    img: "/yogurt.png",
-  },
-  {
-    id: 797979,
-    title: "Flavored milk drinks",
-    img: "/milk_drinks.png",
-  },
-  {
-    id: 797979,
-    title: "Desserts",
-    img: "/desserts.png",
-  },
-  {
-    id: 797979,
-    title: "Ice cream",
-    img: "/ice_cream.png",
-  },
-];
+import { ProductsArray } from "../data/products";
 
 const Products: any = () => {
   return (
