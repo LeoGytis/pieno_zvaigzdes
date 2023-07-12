@@ -1,11 +1,11 @@
-import HeaderBanner from "./HeaderBanner";
-import NavBar from "./NavBar";
+import HeaderBanner from "../HeaderBanner";
+import NavBar from "../NavBar";
 
 const Header: any = () => {
   return (
     <header>
-      <NavBar/>
-      <HeaderBanner />
+      <NavBar />
+      {/* <HeaderBanner /> */}
     </header>
   );
 };
