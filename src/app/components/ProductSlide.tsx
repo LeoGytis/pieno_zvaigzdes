@@ -1,23 +1,26 @@
 import React from "react";
 
-interface ProductSlideProps {
-  product: {
-    title: string;
-    description_header: string;
-    img: string;
-    subtitle: string;
-    awards: string[];
-    energy_value: {
-      value: string;
-      fats: string;
-      fats_more: string;
-      carbs: string;
-      carbs_sugar: string;
-      proteins: string;
-      salt: string;
-    };
-    description: string;
+export interface ProductType {
+  id: number;
+  title: string;
+  description_header: string;
+  img: string;
+  subtitle: string;
+  awards: string[];
+  energy_value: {
+    value: string;
+    fats: string;
+    fats_more: string;
+    carbs: string;
+    carbs_sugar: string;
+    proteins: string;
+    salt: string;
   };
+  description: string;
+}
+
+interface ProductSlideProps {
+  product: ProductType;
   onClose: () => void;
 }
 

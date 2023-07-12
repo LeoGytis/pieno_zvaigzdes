@@ -1,4 +1,6 @@
-export const ProductsArray = [
+import { ProductSlideProps } from "../components/ProductSlide";
+
+export const ProductsArray: ProductSlideProps[] = [
   {
     id: 484848,
     title: "Cheese Sticks",

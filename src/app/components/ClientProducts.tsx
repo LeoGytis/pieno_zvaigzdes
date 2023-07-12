@@ -1,20 +1,25 @@
+"use client";
+
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
 import { ProductsArray } from "../data/products";
+import { ProductType } from "./ProductSlide";
 
 const ProductSlide = dynamic(() => import("./ProductSlide"), {
   ssr: false,
 });
 
 const ClientProducts: React.FC = () => {
-  const [selectedProduct, setSelectedProduct] = useState(null);
-
-  const handleProductClick = (product: any) => {
+  const [selectedProduct, setSelectedProduct] = useState<ProductType>(
+    {} as ProductType
+  );
+  const handleProductClick = (product: ProductType) => {
+    // Update the type of the parameter
     setSelectedProduct(product);
   };
 
   const handleCloseSlide = () => {
-    setSelectedProduct(null);
+    setSelectedProduct({} as ProductType);
   };
 
   return (
@@ -24,7 +29,7 @@ const ClientProducts: React.FC = () => {
         <h3 className="text-sm underline underline-offset-2">Assortment</h3>
       </div>
       <div className="flex md:w-4/5 flex-col md:flex-row justify-around">
-        {ProductsArray.map((product) => (
+        {ProductsArray.map((product: any) => (
           <div
             key={product.id}
             className="flex flex-col items-center align-center m-4"
@@ -39,9 +44,9 @@ const ClientProducts: React.FC = () => {
           </div>
         ))}
       </div>
-      {typeof window !== "undefined" && (
+      {/* {Object.keys(selectedProduct).length > 0 && (
         <ProductSlide product={selectedProduct} onClose={handleCloseSlide} />
-      )}
+      )} */}
     </div>
   );
 };
