@@ -5,7 +5,7 @@ const Header: any = () => {
   return (
     <header>
       <NavBar />
-      {/* <HeaderBanner /> */}
+      <HeaderBanner />
     </header>
   );
 };
