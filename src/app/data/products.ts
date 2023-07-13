@@ -1,6 +1,4 @@
-import { ProductSlideProps } from "../components/ProductSlide";
-
-export const ProductsArray: ProductSlideProps[] = [
+export const ProductsArray = [
   {
     id: 484848,
     title: "Cheese Sticks",
@@ -78,7 +76,7 @@ export const ProductsArray: ProductSlideProps[] = [
       "Skonūs desertai su mažu riebalų kiekiu. Patiekalai, kurie džiugins ir nuramins jūsų saldumynų poreikį.",
   },
   {
-    id: 797979,
+    id: 818181,
     title: "Ice cream",
     img: "/ice_cream.png",
     subtitle: "3.5% riebumo, 1l",

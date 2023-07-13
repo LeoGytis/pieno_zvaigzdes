@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
 import { ProductsArray } from "../data/products";
@@ -13,8 +11,8 @@ const ClientProducts: React.FC = () => {
   const [selectedProduct, setSelectedProduct] = useState<ProductType>(
     {} as ProductType
   );
+
   const handleProductClick = (product: ProductType) => {
-    // Update the type of the parameter
     setSelectedProduct(product);
   };
 
@@ -32,7 +30,7 @@ const ClientProducts: React.FC = () => {
         {ProductsArray.map((product: any) => (
           <div
             key={product.id}
-            className="flex flex-col items-center align-center m-4"
+            className="flex flex-col items-center align-center hover:cursor-pointer m-4"
             onClick={() => handleProductClick(product)}
           >
             <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
@@ -44,9 +42,9 @@ const ClientProducts: React.FC = () => {
           </div>
         ))}
       </div>
-      {/* {Object.keys(selectedProduct).length > 0 && (
+      {Object.keys(selectedProduct).length > 0 && (
         <ProductSlide product={selectedProduct} onClose={handleCloseSlide} />
-      )} */}
+      )}
     </div>
   );
 };

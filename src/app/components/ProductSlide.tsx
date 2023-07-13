@@ -26,14 +26,14 @@ interface ProductSlideProps {
 
 const ProductSlide: React.FC<ProductSlideProps> = ({ product, onClose }) => {
   return (
-    <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-white overflow-hidden">
-      <div className="flex justify-end">
-        <button className="text-3xl p-2" onClick={onClose}>
-          &#10005;
-        </button>
-      </div>
-      <div className="flex justify-center">
-        <div className="w-3/4 p-8">
+    <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-50">
+      <div className="flex justify-center h-full">
+        <div className="w-3/4 bg-white p-8 rounded-lg">
+          <div className="flex justify-end">
+            <button className="text-3xl p-2" onClick={onClose}>
+              &#10005;
+            </button>
+          </div>
           <h1 className="text-2xl mb-4">{product.title}</h1>
           <div className="text-sm text-slate-600">
             <p>{product.description_header}</p>
