@@ -4,17 +4,16 @@ import ProductSlide, { Product } from "./components/ProductSlide";
 import Products from "./components/Products";
 import { ProductsArray } from "./data/products";
 
-export default function Home() {
-  const [selectedProductId, setSelectedProductId] = useState<number | null>(
-    null
-  );
+const Home = () => {
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   const handleProductClick = (productId: number) => {
-    setSelectedProductId(productId);
+    const product = ProductsArray.find((product) => product.id === productId);
+    setSelectedProduct(product || null);
   };
 
   const handleCloseSlide = () => {
-    setSelectedProductId(null);
+    setSelectedProduct(null);
   };
 
   return (
@@ -23,13 +22,14 @@ export default function Home() {
         products={ProductsArray}
         handleProductClick={handleProductClick}
       />
-      <ProductSlide
-        products={ProductsArray}
-        productId={selectedProductId}
-        onCloseSlide={handleCloseSlide}
-      />
+      {selectedProduct && (
+        <ProductSlide
+          product={selectedProduct}
+          onCloseSlide={handleCloseSlide}
+        />
+      )}
     </>
   );
-}
+};
 
-// deploy versel
+export default Home;

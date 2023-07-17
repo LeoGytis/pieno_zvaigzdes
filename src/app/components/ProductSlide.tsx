@@ -20,21 +20,15 @@ export interface Product {
 }
 
 interface ProductSlideProps {
-  products: Product[];
-  productId: number | null;
+  product: Product | null;
   onCloseSlide: () => void;
 }
 
 const ProductSlide: React.FC<ProductSlideProps> = ({
-  products,
-  productId,
+  product,
   onCloseSlide,
 }) => {
-  const selectedProduct: Product | undefined = productId
-    ? products.find((product) => product.id === productId)
-    : undefined;
-
-  if (!productId || !selectedProduct) {
+  if (!product) {
     return null;
   }
 
@@ -51,73 +45,55 @@ const ProductSlide: React.FC<ProductSlideProps> = ({
         </div>
         <div className="flex h-full">
           <div className="flex w-1/2 p-40">
-            <img src={selectedProduct.img} alt={selectedProduct.title} />
+            <img src={product.img} alt={product.title} />
           </div>
           <div className="w-1/2 text-sm text-slate-600 py-5 px-20">
             <h1 className="text-5xl leading-8 font-bold text-[#113b85] mb-4">
-              {selectedProduct.title}
+              {product.title}
             </h1>
-            <div className="text-sm text-[#808080]">
-              {selectedProduct.subtitle}
-            </div>
-            <div className="py-6">
-              Awards: {selectedProduct.awards.join(", ")}
-            </div>
+            <div className="text-sm text-[#808080]">{product.subtitle}</div>
+            <div className="py-6">Awards: {product.awards.join(", ")}</div>
             <div className="font-bold text-[#113b85] mb-2 border-b border-gray-300 pb-2">
               Energetinė vertė (100g)
             </div>
             <div className="flex justify-between border-b border-gray-300 text-[#808080] pb-2 mb-2">
               <p>Energetinė vertė</p>
-              <p className="text-[#808080]">
-                {selectedProduct.energy_value.value}
-              </p>
+              <p className="text-[#808080]">{product.energy_value.value}</p>
             </div>
             <div className="flex justify-between border-b border-gray-300 text-[#808080] pb-2 mb-2">
               <p>Riebalai</p>
-              <p className="text-[#808080]">
-                {selectedProduct.energy_value.fats}
-              </p>
+              <p className="text-[#808080]">{product.energy_value.fats}</p>
             </div>
             <div className="flex justify-between border-b border-gray-300 text-[#808080] pb-2 mb-2">
               <p> iš kurių sočiųjų riebalų rūgščių</p>
-              <p className="text-[#808080]">
-                {selectedProduct.energy_value.fats_more}
-              </p>
+              <p className="text-[#808080]">{product.energy_value.fats_more}</p>
             </div>
             <div className="flex justify-between border-b border-gray-300 text-[#808080] pb-2 mb-2">
               <p>Angliavandeniai</p>
-              <p className="text-[#808080]">
-                {selectedProduct.energy_value.carbs}
-              </p>
+              <p className="text-[#808080]">{product.energy_value.carbs}</p>
             </div>
             <div className="flex justify-between border-b border-gray-300 text-[#808080] pb-2 mb-2">
               <p> iš kurių cukrų</p>
               <p className="text-[#808080]">
-                {selectedProduct.energy_value.carbs_sugar}
+                {product.energy_value.carbs_sugar}
               </p>
             </div>
             <div className="flex justify-between border-b border-gray-300 text-[#808080] pb-2 mb-2">
               <p>Baltymai</p>
-              <p className="text-[#808080]">
-                {selectedProduct.energy_value.proteins}
-              </p>
+              <p className="text-[#808080]">{product.energy_value.proteins}</p>
             </div>
             <div className="flex justify-between border-b border-gray-300 text-[#808080] pb-2 mb-2">
               <p>Druska</p>
-              <p className="text-[#808080]">
-                {selectedProduct.energy_value.salt}
-              </p>
+              <p className="text-[#808080]">{product.energy_value.salt}</p>
             </div>
             <div className="font-bold text-[#113b85] py-4">
               Produkto aprašymas
             </div>
             <div className="flex justify-between text-[#808080] pb-2 mb-2">
-              <p className="text-[#808080]">
-                {selectedProduct.description_header}
-              </p>
+              <p className="text-[#808080]">{product.description_header}</p>
             </div>
             <div className="flex justify-between text-[#808080] pb-2 mb-2">
-              <p className="text-[#808080]">{selectedProduct.description}</p>
+              <p className="text-[#808080]">{product.description}</p>
             </div>
           </div>
         </div>
