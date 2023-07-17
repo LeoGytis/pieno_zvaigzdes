@@ -1,8 +1,10 @@
-import ClientProducts from "./components/ClientProducts";
+import ProductSlide from "./components/ProductSlide";
 import Products from "./components/Products";
 
 export default function Home() {
-  return;
-  // <ClientProducts />;
-  <Products />;
+  return (
+    <>
+      <ProductSlide />
+    </>
+  );
 }

@@ -58,7 +58,7 @@ const ProductSlide: React.FC = () => {
       </div>
       {Object.keys(selectedProduct).length > 0 && (
         <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-50 flex justify-start items-center">
-          <div className="bg-white w-3/4 h-full transform -translate-x-1/5 transition-transform duration-1000 animate-slide-in">
+          <div className="bg-white w-3/4 h-full transform -translate-x-1/5 transition-transform duration-1000 animate-product-slide">
             <div className="flex justify-end pt-2 pr-4">
               <button
                 className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black"
