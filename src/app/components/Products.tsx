@@ -19,15 +19,12 @@ export interface Product {
   description: string;
 }
 
-interface ProductsComponentProps {
+interface ProductsProps {
   products: Product[];
   handleProductClick: (productId: number) => void;
 }
 
-const Products: React.FC<ProductsComponentProps> = ({
-  products,
-  handleProductClick,
-}) => {
+const Products = ({ products, handleProductClick }: ProductsProps) => {
   return (
     <div className="w-full flex flex-col md:flex-row justify-between bg-white p-4">
       <div className="flex md:w-1/5 flex-col justify-center items-center md:items-start pb-4 md:pb-0 text-slate-600">

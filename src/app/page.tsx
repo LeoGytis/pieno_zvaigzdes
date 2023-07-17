@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import ProductSlide, { Product } from "./components/ProductSlide";
-import Products from "./components/Products";
+import ProductSlide from "./components/ProductSlide";
+import Products, { Product } from "./components/Products";
 import { ProductsArray } from "./data/products";
 
 const Home = () => {
