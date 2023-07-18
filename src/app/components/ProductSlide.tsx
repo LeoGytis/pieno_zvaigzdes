@@ -1,6 +1,7 @@
 import React from "react";
 import { Product } from "./Products";
 import ProductDetailRow from "./ProductDetailRow";
+import Image from "next/image";
 
 interface ProductSlideProps {
   product: Product | null;
@@ -25,7 +26,13 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
         </div>
         <div className="flex flex-col md:flex-row h-full">
           <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
-            <img src={product.img} alt={product.title} />
+            {/* <img src={product.img} alt={product.title} /> */}
+            <Image
+              src={product.img}
+              width={500}
+              height={500}
+              alt={product.title}
+            />
           </div>
           <div className="md:w-1/2 text-sm text-slate-600 py-5 px-2 md:px-10 lg:px-20">
             <h1 className="text-5xl leading-8 font-bold text-[#113b85] mb-4">
