@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import ProductSlide from "./components/ProductSlide";
 import Products, { Product } from "./components/Products";
-import { ProductsArray } from "./data/products";
+import { ProductsArray } from "./data/products2";
 
 const Home = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);

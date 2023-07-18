@@ -28,9 +28,11 @@ const Products = ({ products, handleProductClick }: ProductsProps) => {
   return (
     <div className="w-full md:max-h-64 flex flex-col md:flex-row justify-between bg-white p-7 pt-12 pb-14">
       <div className="flex md:w-1/5 flex-col gap-4 justify-center items-center md:items-start pl-8">
-        <h1 className="text-2xl text-[#616161]">Our products</h1>
+        <h1 className="text-2xl text-[#616161] font-ubuntu font-medium">
+          Our products
+        </h1>
         <h3 className="italic text-[#1B3C80] underline underline-offset-2">
-          Assortment
+          Assortiment
         </h3>
       </div>
       <div className="flex gap-6 md:w-4/5 flex-col md:flex-row justify-around">
