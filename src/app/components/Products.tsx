@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 export interface Product {
@@ -42,13 +41,7 @@ const Products = ({ products, handleProductClick }: ProductsProps) => {
             onClick={() => handleProductClick(product.id)}
           >
             <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
-              {/* <img src={product.img} alt={product.title} /> */}
-              <Image
-                src={product.img}
-                width={500}
-                height={500}
-                alt={product.title}
-              />
+              <img src={product.img} alt={product.title} />
             </div>
             <div className="text-sm text-center text-slate-600">
               {product.title}
