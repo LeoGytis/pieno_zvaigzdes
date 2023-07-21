@@ -5,7 +5,6 @@ export interface Product {
   title: string;
   img: string;
   energy_values: string;
-  subtitle: string;
   storage_conditions: string;
   logistic_information: string;
   primary_packaging: string;
@@ -28,9 +27,7 @@ const Products = ({ products, handleProductClick }: ProductsProps) => {
   return (
     <div className="w-full md:max-h-64 flex flex-col md:flex-row justify-between bg-white p-7 pt-12 pb-14">
       <div className="flex md:w-1/5 flex-col gap-4 justify-center items-center md:items-start pl-8">
-        <h1 className="text-2xl text-[#616161] font-ubuntu font-medium">
-          Our products
-        </h1>
+        <h1 className="text-2xl text-[#616161] font-medium">Our products</h1>
         <h3 className="italic text-[#1B3C80] underline underline-offset-2">
           Assortiment
         </h3>

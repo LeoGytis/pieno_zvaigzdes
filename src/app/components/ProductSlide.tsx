@@ -85,7 +85,6 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
                 <p className="text-[#808080]">{product.palette_size}</p>
               </div>
             </div>
-
             <div className="flex flex-col gap-7 pb-20">
               <h2 className="font-bold text-[#113B85] mb-2">Contact Us</h2>
               <p>info@pienozvaigzdes.lt</p>
