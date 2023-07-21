@@ -19,7 +19,7 @@ export const ProductsArray = [
     units_per_layer: "3",
     layers: "10",
     palette_net: "750 kg",
-    palette_size: "1200.800.1200",
+    palette_size: "1200x800x1200",
   },
   {
     id: 404040,
