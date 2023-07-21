@@ -28,50 +28,32 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
             <img src={product.img} alt={product.title} />
           </div>
           <div className="md:w-1/2 text-sm text-slate-600 py-5 px-2 md:px-10 lg:px-20">
-            <h1 className="text-5xl leading-8 font-bold text-[#113b85] mb-4">
+            <h1 className="text-6xl font-bold text-[#113b85] mb-10">
               {product.title}
             </h1>
-            <div className="text-sm text-[#808080]">{product.subtitle}</div>
-            <div className="py-6">Awards: {product.awards.join(", ")}</div>
-            <div className="font-bold text-[#113b85] mb-2 border-b border-gray-300 pb-2">
-              Energetinė vertė (100g)
+            <div>
+              <h2 className="font-bold text-[#113b85] mb-6">
+                LABELING, SHELF LIFE, STORAGE CONDITIONS
+              </h2>
+              <p className="text-[#808080] mb-14">{product.energy_values}</p>
             </div>
-            <ProductDetailRow
-              label="Energetinė vertė"
-              value={product.energy_value.value}
-            />
-            <ProductDetailRow
-              label="Riebalai"
-              value={product.energy_value.fats}
-            />
-            <ProductDetailRow
-              label="iš kurių sočiųjų riebalų rūgščių"
-              value={product.energy_value.fats_more}
-            />
-            <ProductDetailRow
-              label="Angliavandeniai"
-              value={product.energy_value.carbs}
-            />
-            <ProductDetailRow
-              label="iš kurių cukrų"
-              value={product.energy_value.carbs_sugar}
-            />
-            <ProductDetailRow
-              label="Baltymai"
-              value={product.energy_value.proteins}
-            />
-            <ProductDetailRow
-              label="Druska"
-              value={product.energy_value.salt}
-            />
-            <div className="font-bold text-[#113b85] py-4">
-              Produkto aprašymas
+
+            <div>
+              <h2 className="font-bold text-[#808080] mb-6">
+                SHELF LIFE AND STORAGE CONDITIONS:
+              </h2>
+              <p className="text-[#808080] mb-14">{product.energy_values}</p>
             </div>
-            <div className="flex justify-between text-[#808080] pb-2 mb-2">
-              <p className="text-[#808080]">{product.description_header}</p>
-            </div>
-            <div className="flex justify-between text-[#808080] pb-2 mb-2">
-              <p className="text-[#808080]">{product.description}</p>
+
+            <div>
+              <h2 className="font-bold text-[#113b85] mb-6">
+                Logistic information
+              </h2>
+              <p className="text-[#808080] mb-2">
+                {product.logistic_information}
+              </p>
+              <p className="text-[#808080] mb-2">{product.primary_packaging}</p>
+              <p className="text-[#808080] mb-14">{product.method}</p>
             </div>
           </div>
         </div>

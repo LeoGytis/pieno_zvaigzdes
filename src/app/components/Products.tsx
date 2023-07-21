@@ -3,20 +3,20 @@ import React from "react";
 export interface Product {
   id: number;
   title: string;
-  description_header: string;
   img: string;
+  energy_values: string;
   subtitle: string;
-  awards: string[];
-  energy_value: {
-    value: string;
-    fats: string;
-    fats_more: string;
-    carbs: string;
-    carbs_sugar: string;
-    proteins: string;
-    salt: string;
-  };
-  description: string;
+  storage_conditions: string;
+  logistic_information: string;
+  primary_packaging: string;
+  method: string;
+  secondary_packaging: string;
+  box_dimensions: string;
+  units_per_palette: string;
+  units_per_layer: string;
+  layers: string;
+  palette_net: string;
+  palette_size: string;
 }
 
 interface ProductsProps {
