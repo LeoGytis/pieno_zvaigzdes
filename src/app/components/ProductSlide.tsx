@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Product } from "./Products";
-import ProductDetailRow from "./ProductDetailRow";
 
 interface ProductSlideProps {
   product: Product | null;
@@ -8,13 +7,36 @@ interface ProductSlideProps {
 }
 
 const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
+  const productSlideRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (
+        productSlideRef.current &&
+        !productSlideRef.current.contains(event.target as Node)
+      ) {
+        onCloseSlide();
+      }
+    };
+
+    document.addEventListener("mousedown", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, [onCloseSlide]);
+
   if (!product) {
     return null;
   }
 
   return (
     <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-50 flex justify-start items-center">
-      <div className="bg-white md:w-11/12 h-full overflow-auto transform transition-transform duration-1000 animate-product-slide">
+      <div
+        className="bg-white md:w-11/12 h-full overflow-auto transform transition-transform duration-1000 animate-product-slide"
+        ref={productSlideRef}
+        onClick={(event) => event.stopPropagation()}
+      >
         <div className="flex justify-end pt-2 pr-4">
           <button
             className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black"
