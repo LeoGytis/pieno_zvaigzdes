@@ -2,7 +2,7 @@ export const ProductsArray = [
   {
     id: 484848,
     title: "Svalya Mozzarella",
-    img: "images/Svalya_Mozzarella.png",
+    img: "/images/Svalya_Mozzarella.png",
     energy_values:
       "Skimmed milk powder ADPI Extra Grade. Ingredients: skimmed milk. Nutrition 100 g: energy value 1482kJ/348 kcal; protein 35,1 g; fat 0,8 g;- saturated fat 0,5 g; carbohydrate 52,0 g; sugars 52,0 g; salt 1,5 g.",
     storage_conditions:
@@ -24,7 +24,7 @@ export const ProductsArray = [
   {
     id: 404040,
     title: "Svalya Mozzarella",
-    img: "images/Svalya_Mozzarella2.png",
+    img: "/images/Svalya_Mozzarella2.png",
     energy_values:
       "Skimmed milk powder ADPI Extra Grade. Ingredients: skimmed milk. Nutrition 100 g: energy value 1350kJ/322 kcal; protein 34.0 g; fat 0.5 g; saturated fat 0.3 g; carbohydrate 43.5 g; sugars 43.5 g; salt 1.1 g.",
     storage_conditions:
@@ -45,7 +45,7 @@ export const ProductsArray = [
   {
     id: 101010,
     title: "Svalya Milk Powder",
-    img: "images/Svalya_Milk_Powder.png",
+    img: "/images/Svalya_Milk_Powder.png",
     energy_values:
       "Whole milk powder ADPI Extra Grade. Ingredients: whole milk. Nutrition 100 g: energy value 2400kJ/574 kcal; protein 26.4 g; fat 32.1 g; saturated fat 21.6 g; carbohydrate 43.0 g; sugars 43.0 g; salt 0.6 g.",
     storage_conditions:
@@ -66,7 +66,7 @@ export const ProductsArray = [
   {
     id: 202020,
     title: "Svalya Sweet Whey Powder",
-    img: "images/Svalya_Powder.png",
+    img: "/images/Svalya_Powder.png",
     energy_values:
       "Sweet whey powder. Ingredients: sweet whey. Nutrition 100 g: energy value 1760kJ/419 kcal; protein 10.4 g; fat 1.0 g; saturated fat 0.6 g; carbohydrate 87.2 g; sugars 87.2 g; salt 0.6 g.",
     storage_conditions:
@@ -87,7 +87,7 @@ export const ProductsArray = [
   {
     id: 303030,
     title: "Svalya Pizz Mozzarella",
-    img: "images/Pizz_Mozzarella.png",
+    img: "/images/Pizz_Mozzarella.png",
     energy_values:
       "Mozzarella cheese. Ingredients: pasteurized milk, salt, microbial rennet. Nutrition 100 g: energy value 1192kJ/285 kcal; protein 19.5 g; fat 21.0 g; saturated fat 14.0 g; carbohydrate 2.5 g; sugars 2.5 g; salt 1.2 g.",
     storage_conditions:
