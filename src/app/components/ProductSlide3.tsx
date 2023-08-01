@@ -152,9 +152,6 @@ const ProductSlide3 = () => {
               />
             </div>
             <div className="text-grey mb-14">
-              <h2 className="font-bold text-blue mb-6">
-                IQF Logistic information
-              </h2>
               <div>
                 <strong>Secondary packaging:&nbsp;</strong>
                 Carton box, 6 units in carton, 12 kg net weight of packaged
@@ -179,33 +176,85 @@ const ProductSlide3 = () => {
               <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
+              <h2 className="flex justify-center gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+                <p>shredded</p>
+                <p>diced</p>
+              </h2>
               <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
                 <p className="text-blue">Units per palette</p>
+                <p className="text-grey">60</p>
                 <p className="text-grey">60</p>
               </div>
               <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
                 <p className="text-blue">Units per layer</p>
                 <p className="text-grey">6</p>
+                <p className="text-grey">6</p>
               </div>
               <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
                 <p className="text-blue">Layers</p>
+                <p className="text-grey">10</p>
                 <p className="text-grey">10</p>
               </div>
               <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
                 <p className="text-blue">Palette net</p>
                 <p className="text-grey">720 kg</p>
+                <p className="text-grey">720 kg</p>
               </div>
               <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
                 <p className="text-blue">Size (LxWxH), mm</p>
+                <p className="text-grey">1200x800x2350</p>
                 <p className="text-grey">1200x800x2350</p>
               </div>
             </div>
             <div className="mb-14">
               <Image
-                src="/images/mozzarella/token_03.png"
+                src="/images/mozzarella/palette_size.png"
                 alt="palette_size"
-                width={110}
-                height={75}
+                width={153}
+                height={120}
+              />
+            </div>
+            <div className="text-grey mb-14">
+              <h2 className="font-bold text-blue mb-6">
+                NON IQF Logistic information
+              </h2>
+              <div>
+                <strong>Primary packaging:&nbsp;</strong>
+                Plastic film; dimension 280x370 mm; designation 2kg
+                (shredded/diced);
+              </div>
+              <div>
+                <strong>Method:&nbsp;</strong>
+                In a protective atmosphere.
+              </div>
+            </div>
+            <div className="flex gap-10 mb-14">
+              <Image
+                src="/images/mozzarella/logistic_box.png"
+                alt="logistic_box"
+                width={106}
+                height={132}
+              />
+            </div>
+            <div className="text-grey mb-14">
+              <div>
+                <strong>Secondary packaging:&nbsp;</strong>
+                Carton box, 6 units in carton, 12 kg net weight of packaged
+                product.
+              </div>
+              <div>
+                <p>
+                  <strong> Dimensions of the box&nbsp;</strong>
+                </p>
+                <p>587x257x195 mm (shredded/ diced).</p>
+              </div>
+            </div>
+            <div className="flex gap-10 mb-14">
+              <Image
+                src="/images/mozzarella/logistic_box_secondary.png"
+                alt="logistic_box_secondary"
+                width={149}
+                height={120}
               />
             </div>
             <div className="flex flex-col text-black gap-7 pb-20">
