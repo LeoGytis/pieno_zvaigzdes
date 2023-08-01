@@ -57,6 +57,11 @@ export const ProductsArray = [
     id: 1003,
     title: "Svalya Mozzarella 40 %",
     img: "/images/mozzarella/mozzarella.png",
+    tokens: {
+      img_01: "/images/mozzarella/token_01.png",
+      img_02: "/images/mozzarella/token_02.png",
+      img_03: "/images/mozzarella/token_03.png",
+    },
     labeling: {
       title:
         "Diced/ Shredded frozen Cheese „Mozzarella“ 40% fat in dry matter.",

@@ -1,0 +1,208 @@
+// import React, { useEffect, useRef } from "react";
+import { Product } from "./Products";
+import Image from "next/image";
+
+interface ProductSlideProps {
+  product: Product | null;
+  onCloseSlide: () => void;
+}
+
+const ProductSlide3 = () => {
+  // const productSlideRef = useRef<HTMLDivElement | null>(null);
+
+  return (
+    <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-50 flex justify-start items-center">
+      <div
+        className="bg-white md:w-11/12 h-full overflow-auto transform transition-transform duration-1000 animate-product-slide"
+        // ref={productSlideRef}
+        onClick={(event) => event.stopPropagation()}
+      >
+        <div className="flex justify-end pt-2 pr-4">
+          <button
+            className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black"
+            // onClick={onCloseSlide}
+          >
+            &#10005;
+          </button>
+        </div>
+        <div className="flex flex-col md:flex-row h-full">
+          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
+            <Image
+              src="/images/mozzarella/mozzarella.png"
+              alt="Svalya Mozzarella"
+              width={500}
+              height={500}
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+          <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
+            <h1 className="text-6xl font-bold mb-10">Svalya Mozzarella 40 %</h1>
+            <div className="flex max-h-20 gap-6 mb-10">
+              <div>
+                <Image
+                  src="/images/mozzarella/token_01.png"
+                  alt="token__"
+                  width={79}
+                  height={77}
+                />
+              </div>
+              <Image
+                src="/images/mozzarella/token_02.png"
+                alt="token__"
+                width={114}
+                height={67}
+              />
+              <Image
+                src="/images/mozzarella/token_03.png"
+                alt="token__"
+                width={57}
+                height={67}
+              />
+            </div>
+            <div className="text-grey">
+              <h2 className="text-xl font-bold mb-10">
+                Available in various forms and sizes IQF and frozen:
+              </h2>
+              <Image
+                src="/images/mozzarella/diced_in_cubes.png"
+                alt="token__"
+                width={217}
+                height={119}
+              />
+              <p className="mt-6">Diced in cubes</p>
+              <p className="mb-10">
+                fraction cuts: 3x3x3 mm, 6x6x6 mm, 10x10x10 mm
+              </p>
+              <Image
+                src="/images/mozzarella/shredded.png"
+                alt="token__"
+                width={217}
+                height={119}
+              />
+              <p className="mt-6">Shredded</p>
+              <p className="mb-10"> fraction cuts: 3x1, 5x30 mm</p>
+              <Image
+                src="/images/mozzarella/diced_in_stripes.png"
+                alt="token__"
+                width={217}
+                height={119}
+              />
+              <p className="mt-6">Diced in stripes</p>
+              <p className="mb-10">fraction cuts: 3x3x10 mm, 3x3x30 mm</p>
+            </div>
+            <div>
+              <h2 className="font-bold mb-6">LABELING</h2>
+              <p className="text-grey">
+                Diced/ Shredded frozen Cheese „Mozzarella“ 40% fat in dry
+                matter.
+              </p>
+              <p className="text-grey">
+                Ingredients: cheese Mozzarella (pasteurized milk, salt, starter
+                cultures, microbial rennet), anti-caking agent: starch potato*.
+              </p>
+              <p className="text-grey mb-6">
+                Packaged in a protective atmosphere.Nutrition 100 g: energy 1243
+                kJ/299 kcal; fat 21,5 g, of which: saturates 14,0 g;
+                carbohydrate 1,8 g, of which: sugars 0,5 g, starch 1,3 g; food
+                fibre 0 g, protein 24,5 g, salt 0,8 g. * Possibility of
+                production with no anti-caking agent.
+              </p>
+              <p className="text-grey mb-14">
+                * Possibility of production with no anti-caking agent.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="font-bold text-blue mb-6">
+                SHELF LIFE AND STORAGE CONDITIONS
+              </h2>
+              <p className="text-grey">
+                Best before date: 12 months from packing date, storage
+                conditions before opening ≤ (minus) 18 C;
+              </p>
+              <p className="text-grey">
+                Shelf life after opening: at temperature (0...+4) C no longer
+                than 4 days;
+              </p>
+              <p className="text-grey">
+                Shelf life after defrosting: at temperature (0...+4) C no longer
+                than 7 days;
+              </p>
+              <p className="text-grey mb-14">
+                Do not refreeze after defrosting.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="font-bold text-blue mb-6">
+                IQF Logistic information
+              </h2>
+              <div className="flex">
+                <p className="font-bold text-grey mb-2">
+                  Primary packaging:&nbsp;Plastic film; dimension 280x370 mm
+                  (shredded), 280x370 mm (diced); designation 2 kg;
+                </p>
+              </div>
+
+              <div className="flex">
+                <p className="font-bold text-grey mb-2">Method:&nbsp;</p>
+                <p className="text-grey mb-14">In a protective atmosphere.</p>
+              </div>
+            </div>
+            <div className="flex gap-10 mb-14">
+              <Image
+                src="/images/mozzarella/token_03.png"
+                alt="logistic_box"
+                width={100}
+                height={100}
+              />
+            </div>
+
+            <div className="pb-14">
+              <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+                Palette details
+              </h2>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Units per palette</p>
+                <p className="text-grey">60</p>
+              </div>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Units per layer</p>
+                <p className="text-grey">6</p>
+              </div>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Layers</p>
+                <p className="text-grey">10</p>
+              </div>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Palette net</p>
+                <p className="text-grey">720 kg</p>
+              </div>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Size (LxWxH), mm</p>
+                <p className="text-grey">1200x800x2350</p>
+              </div>
+            </div>
+            <div className="mb-14">
+              <Image
+                src="/images/mozzarella/token_03.png"
+                alt="palette_size"
+                width={110}
+                height={75}
+              />
+            </div>
+
+            <div className="flex flex-col text-black gap-7 pb-20">
+              <h2 className="font-bold text-blue">Contact Us</h2>
+              <p className="-mb-3">info@svala.com</p>
+              <p className="-mb-3">852461414</p>
+              <p className="-mb-3">pienozvaigzdes.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProductSlide3;

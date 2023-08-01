@@ -27,20 +27,8 @@ export interface Product {
     nutrition: string;
   };
   storage_conditions: string;
-  logistic_information: {
-    primary_packaging: string;
-    label: string;
-    method: string;
-    img: string;
-  };
-  palette_details: {
-    units_per_palette: string;
-    units_per_layer: string;
-    layers: string;
-    palette_net: string;
-    palette_size: string;
-    img: string;
-  };
+  logistic_information: LogisticInformation;
+  palette_details: PaletteDetails;
 }
 
 interface ProductsProps {
