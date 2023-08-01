@@ -1,4 +1,5 @@
 // import React, { useEffect, useRef } from "react";
+import ContactUs from "./ContactUs";
 import { Product } from "./Products";
 import Image from "next/image";
 
@@ -172,7 +173,7 @@ const ProductSlide3 = () => {
                 height={120}
               />
             </div>
-            <div className="pb-14">
+            <div className="text-grey pb-14">
               <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
@@ -180,30 +181,30 @@ const ProductSlide3 = () => {
                 <p>shredded</p>
                 <p>diced</p>
               </h2>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Units per palette</p>
-                <p className="text-grey">60</p>
-                <p className="text-grey">60</p>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Units per palette</p>
+                <p className="w-40">60</p>
+                <p>60</p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Units per layer</p>
-                <p className="text-grey">6</p>
-                <p className="text-grey">6</p>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Units per layer</p>
+                <p className="w-40">6</p>
+                <p>6</p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Layers</p>
-                <p className="text-grey">10</p>
-                <p className="text-grey">10</p>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Layers</p>
+                <p className="w-40">10</p>
+                <p>10</p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Palette net</p>
-                <p className="text-grey">720 kg</p>
-                <p className="text-grey">720 kg</p>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Palette net</p>
+                <p className="w-40">720 kg</p>
+                <p>720 kg</p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Size (LxWxH), mm</p>
-                <p className="text-grey">1200x800x2350</p>
-                <p className="text-grey">1200x800x2350</p>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Size (LxWxH), mm</p>
+                <p className="w-40">1200x800x2350</p>
+                <p>1200x800x2350</p>
               </div>
             </div>
             <div className="mb-14">
@@ -257,12 +258,49 @@ const ProductSlide3 = () => {
                 height={120}
               />
             </div>
-            <div className="flex flex-col text-black gap-7 pb-20">
-              <h2 className="font-bold text-blue">Contact Us</h2>
-              <p className="-mb-3">info@svala.com</p>
-              <p className="-mb-3">852461414</p>
-              <p className="-mb-3">pienozvaigzdes.com</p>
+            <div className="text-grey pb-14">
+              <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+                Palette details
+              </h2>
+              <h2 className="flex justify-center gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+                <p>shredded</p>
+                <p>diced</p>
+              </h2>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Units per palette</p>
+                <p className="w-40">60</p>
+                <p>60</p>
+              </div>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Units per layer</p>
+                <p className="w-40">6</p>
+                <p>6</p>
+              </div>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Layers</p>
+                <p className="w-40">10</p>
+                <p>10</p>
+              </div>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Palette net</p>
+                <p className="w-40">720 kg</p>
+                <p>720 kg</p>
+              </div>
+              <div className="flex border-b border-gray-300  pb-4 mb-4">
+                <p className="text-blue w-[164px]">Size (LxWxH), mm</p>
+                <p className="w-40">1200x800x2350</p>
+                <p>1200x800x2350</p>
+              </div>
             </div>
+            <div className="mb-14">
+              <Image
+                src="/images/mozzarella/palette_size.png"
+                alt="palette_size"
+                width={153}
+                height={120}
+              />
+            </div>
+            <ContactUs />
           </div>
         </div>
       </div>
