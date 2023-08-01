@@ -40,20 +40,20 @@ const ProductSlide3 = () => {
             <div className="flex max-h-20 gap-6 mb-10">
               <div>
                 <Image
-                  src="/images/mozzarella/token_01.png"
+                  src="/images/tokens/token_01.png"
                   alt="token__"
                   width={79}
                   height={77}
                 />
               </div>
               <Image
-                src="/images/mozzarella/token_02.png"
+                src="/images/tokens/token_02.png"
                 alt="token__"
                 width={114}
                 height={67}
               />
               <Image
-                src="/images/mozzarella/token_03.png"
+                src="/images/tokens/token_03.png"
                 alt="token__"
                 width={57}
                 height={67}
@@ -111,53 +111,70 @@ const ProductSlide3 = () => {
                 * Possibility of production with no anti-caking agent.
               </p>
             </div>
-
-            <div>
+            <div className="text-grey">
               <h2 className="font-bold text-blue mb-6">
                 SHELF LIFE AND STORAGE CONDITIONS
               </h2>
-              <p className="text-grey">
+              <p>
                 Best before date: 12 months from packing date, storage
                 conditions before opening ≤ (minus) 18 C;
               </p>
-              <p className="text-grey">
+              <p>
                 Shelf life after opening: at temperature (0...+4) C no longer
                 than 4 days;
               </p>
-              <p className="text-grey">
+              <p>
                 Shelf life after defrosting: at temperature (0...+4) C no longer
                 than 7 days;
               </p>
-              <p className="text-grey mb-14">
-                Do not refreeze after defrosting.
-              </p>
+              <p className="mb-14">Do not refreeze after defrosting.</p>
             </div>
-
-            <div>
+            <div className="text-grey mb-14">
               <h2 className="font-bold text-blue mb-6">
                 IQF Logistic information
               </h2>
-              <div className="flex">
-                <p className="font-bold text-grey mb-2">
-                  Primary packaging:&nbsp;Plastic film; dimension 280x370 mm
-                  (shredded), 280x370 mm (diced); designation 2 kg;
-                </p>
+              <div>
+                <strong>Primary packaging:&nbsp;</strong>
+                Plastic film; dimension 280x370 mm (shredded), 280x370 mm
+                (diced); designation 2 kg;
               </div>
-
-              <div className="flex">
-                <p className="font-bold text-grey mb-2">Method:&nbsp;</p>
-                <p className="text-grey mb-14">In a protective atmosphere.</p>
+              <div>
+                <strong>Method:&nbsp;</strong>
+                In a protective atmosphere.
               </div>
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/mozzarella/token_03.png"
+                src="/images/mozzarella/logistic_box.png"
                 alt="logistic_box"
-                width={100}
-                height={100}
+                width={106}
+                height={132}
               />
             </div>
-
+            <div className="text-grey mb-14">
+              <h2 className="font-bold text-blue mb-6">
+                IQF Logistic information
+              </h2>
+              <div>
+                <strong>Secondary packaging:&nbsp;</strong>
+                Carton box, 6 units in carton, 12 kg net weight of packaged
+                product.
+              </div>
+              <div>
+                <p>
+                  <strong> Dimensions of the box&nbsp;</strong>
+                </p>
+                <p>587x257x195 mm (shredded/ diced).</p>
+              </div>
+            </div>
+            <div className="flex gap-10 mb-14">
+              <Image
+                src="/images/mozzarella/logistic_box_secondary.png"
+                alt="logistic_box_secondary"
+                width={149}
+                height={120}
+              />
+            </div>
             <div className="pb-14">
               <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
@@ -191,7 +208,6 @@ const ProductSlide3 = () => {
                 height={75}
               />
             </div>
-
             <div className="flex flex-col text-black gap-7 pb-20">
               <h2 className="font-bold text-blue">Contact Us</h2>
               <p className="-mb-3">info@svala.com</p>
