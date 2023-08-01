@@ -55,90 +55,87 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
               height={500}
             />
           </div>
-          <div className="md:w-1/2 text-sm text-slate-600 px-10 py-5 lg:py-16">
-            <h1 className="text-6xl font-bold text-primary  mb-10">
-              {product.title}
-            </h1>
+          <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
+            <h1 className="text-6xl font-bold mb-10">{product.title}</h1>
             <div>
-              <h2 className="font-bold text-primary mb-6">
-                LABELING, SHELF LIFE, STORAGE CONDITIONS
-              </h2>
-              <p className="text-secondary mb-14">{product.energy_values}</p>
+              <h2 className="font-bold mb-6">LABELING</h2>
+              <p className="text-grey mb-14">{product.energy_values}</p>
             </div>
 
             <div>
-              <h2 className="font-bold text-primary mb-6">
-                SHELF LIFE AND STORAGE CONDITIONS:
+              <h2 className="font-bold text-blue mb-6">
+                SHELF LIFE AND STORAGE CONDITIONS
               </h2>
-              <p className="text-secondary mb-14">{product.energy_values}</p>
+              <p className="text-grey mb-14">{product.energy_values}</p>
             </div>
 
             <div>
-              <h2 className="font-bold text-primary mb-6">
-                Logistic information
-              </h2>
-              <p className="text-secondary mb-2">
-                {product.logistic_information}
-              </p>
-              <p className="text-secondary mb-2">{product.primary_packaging}</p>
-              <p className="text-secondary mb-14">{product.method}</p>
+              <h2 className="font-bold text-blue mb-6">Logistic information</h2>
+              <div className="flex">
+                <p className="font-bold text-grey mb-2">
+                  Primary packaging:&nbsp;
+                </p>
+                <p className="text-grey mb-2">
+                  {product.logistic_information.primary_packaging}
+                </p>
+              </div>
+              <div className="flex">
+                <p className="font-bold text-grey mb-2">Label:&nbsp;</p>
+                <p className="text-grey mb-2">
+                  {product.logistic_information.label}
+                </p>
+              </div>
+
+              <div className="flex">
+                <p className="font-bold text-grey mb-2">Method:&nbsp;</p>
+                <p className="text-grey mb-14">
+                  {product.logistic_information.method}
+                </p>
+              </div>
             </div>
             <div className="flex gap-10 mb-14">
-              <img src="images/box_size.png" alt="box_sizing" />
-              <img src="images/box_size2.png" alt="box_sizing" />
+              <img src="/images/box_size.png" alt="box_sizing" />
+              <img src="/images/box_size2.png" alt="box_sizing" />
             </div>
 
             <div className="pb-14">
-              <h2 className="font-bold text-primary  border-b border-gray-300 pb-4 mb-4">
+              <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
-              <div className="flex justify-between border-b border-gray-300 text-secondary pb-4 mb-4">
-                <p className="text-primary">Units per palette</p>
-                <p className="text-secondary">{product.units_per_palette}</p>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Units per palette</p>
+                <p className="text-grey">
+                  {product.palette_details.units_per_palette}
+                </p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-secondary pb-4 mb-4">
-                <p className="text-primary">Units per layer</p>
-                <p className="text-secondary">{product.units_per_layer}</p>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Units per layer</p>
+                <p className="text-grey">
+                  {product.palette_details.units_per_layer}
+                </p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-secondary pb-4 mb-4">
-                <p className="text-primary">Layers</p>
-                <p className="text-secondary">{product.layers}</p>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Layers</p>
+                <p className="text-grey">{product.palette_details.layers}</p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-secondary pb-4 mb-4">
-                <p className="text-primary">Palette net</p>
-                <p className="text-secondary">{product.palette_net}</p>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Palette net</p>
+                <p className="text-grey">
+                  {product.palette_details.palette_net}
+                </p>
               </div>
-              <div className="flex justify-between border-b border-gray-300 text-secondary pb-4 mb-4">
-                <p className="text-primary">Size (LxWxH), mm</p>
-                <p className="text-secondary">{product.palette_size}</p>
+              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
+                <p className="text-blue">Size (LxWxH), mm</p>
+                <p className="text-grey">
+                  {product.palette_details.palette_size}
+                </p>
               </div>
             </div>
             <div className="flex flex-col text-black gap-7 pb-20">
-              <h2 className="font-bold text-primary">Contact Us</h2>
-              <p className="-mb-3">info@pienozvaigzdes.lt</p>
-              <p>852461414</p>
-              <h2 className="font-bold text-secondary -mb-3">
-                Toll-free quality line:
-              </h2>
-              <p>880055224</p>
-              <div className="flex flex-col gap-2">
-                <div className="flex gap-2">
-                  <div className="text-secondary">Lithuania:</div>
-                  <div className="text-[#000]">pienozvaigzdes.lt</div>
-                </div>
-                <div className="flex gap-2">
-                  <div className="text-secondary">Global:</div>
-                  <div className="text-[#000]">pienozvaigzdes.com</div>
-                </div>
-                <div className="flex gap-2">
-                  <div className="text-secondary">Estonia:</div>
-                  <div className="text-[#000]">aasapiim.eu</div>
-                </div>
-                <div className="flex gap-2">
-                  <div className="text-secondary">Latvia:</div>
-                  <div className="text-[#000]">annele.lv</div>
-                </div>
-              </div>
+              <h2 className="font-bold text-blue">Contact Us</h2>
+              <p className="-mb-3">info@svala.com</p>
+              <p className="-mb-3">852461414</p>
+              <p className="-mb-3">pienozvaigzdes.com</p>
             </div>
           </div>
         </div>

@@ -1,22 +1,28 @@
 import Image from "next/image";
 import React from "react";
 
+export interface LogisticInformation {
+  primary_packaging: string;
+  label: string;
+  method: string;
+}
+
+export interface PaletteDetails {
+  units_per_palette: string;
+  units_per_layer: string;
+  layers: string;
+  palette_net: string;
+  palette_size: string;
+}
+
 export interface Product {
   id: number;
   title: string;
   img: string;
   energy_values: string;
   storage_conditions: string;
-  logistic_information: string;
-  primary_packaging: string;
-  method: string;
-  secondary_packaging: string;
-  box_dimensions: string;
-  units_per_palette: string;
-  units_per_layer: string;
-  layers: string;
-  palette_net: string;
-  palette_size: string;
+  logistic_information: LogisticInformation;
+  palette_details: PaletteDetails;
 }
 
 interface ProductsProps {
