@@ -1,16 +1,21 @@
 export const ProductsArray = [
   {
-    id: 484848,
+    id: 1001,
     title: "Svalya Skimmed Milk Powder",
-    img: "/images/Svalya_Mozzarella.png",
-    energy_values:
-      "Skimmed milk powder ADPI Extra Grade. Ingredients: skimmed milk. Nutrition 100 g: energy value 1482kJ/348 kcal; protein 35,1 g; fat 0,8 g;- saturated fat 0,5 g; carbohydrate 52,0 g; sugars 52,0 g; salt 1,5 g.",
+    img: "/images/milk_powder/Svalya_Skimmed_Milk_Powder.png",
+    labeling: {
+      title: "Skimmed milk powder ADPI Extra Grade.",
+      ingredients: "Ingredients: skimmed milk",
+      nutrition:
+        "Nutrition 100g: energy value 1482kJ/348 kcal; protein 35,1 g; fat 0,8 g;- saturated fat 0,5 g; carbohydrate 52,0 g; sugars 52,0 g; salt 1,5 g.",
+    },
     storage_conditions:
       "Temperature ≤ 25 ⁰C, the relative humidity ≤ 85%, Shelf life no longer than 24 months from the date of manufacturing.",
     logistic_information: {
       primary_packaging: "25 kg – manylayers paper bag with PE liner",
       label: "Paper ThermalTOP, 100x60 mm",
       method: "Hot lock.",
+      img: "/images/milk_powder/logistic_box.png",
     },
     palette_details: {
       units_per_palette: "30",
@@ -18,49 +23,65 @@ export const ProductsArray = [
       layers: "10",
       palette_net: "750 kg",
       palette_size: "1200x800x1200",
+      img: "/images/milk_powder/palette_size.png",
     },
   },
   {
-    id: 404040,
-    title: "Svalya Mozzarella",
-    img: "/images/Svalya_Mozzarella2.png",
-    energy_values:
-      "Skimmed milk powder ADPI Extra Grade. Ingredients: skimmed milk. Nutrition 100 g: energy value 1350kJ/322 kcal; protein 34.0 g; fat 0.5 g; saturated fat 0.3 g; carbohydrate 43.5 g; sugars 43.5 g; salt 1.1 g.",
+    id: 1002,
+    title: "Sweet whey powder",
+    img: "/images/whey_powder/sweet_whey_powder.png",
+    labeling: {
+      title: "Sweet whey powder.",
+      ingredients: "Ingredients: whey.",
+      nutrition:
+        "Nutrition 100 g: energy value 1465kJ/345 kcal; protein 12,0 g; fat 1,0 g;- saturated fat 0,7 g; carbohydrate 72,0 g; sugars 72,0 g; salt 2,5 g.",
+    },
     storage_conditions:
-      "Best before date: 12 months from packaging date, storage conditions before opening ≤ (minus) 18°C. Shelf life after opening: at temperature (0...+4)°C no longer than 5 days. Shelf life after defrosting: not applicable.",
-    logistic_information:
-      "Temperature ≤ 25°C, the relative humidity ≤ 85%. Shelf life no longer than 24 months from the date of manufacturing.",
-    primary_packaging: "Plastic film; dimension 220x300 mm; designation 1 kg",
-    method: "In a protective atmosphere.",
-    secondary_packaging:
-      "Carton box, 10 units in carton, 10 kg net weight of packaged product.",
-    box_dimensions: "400x250x300 mm",
-    units_per_palette: "100",
-    units_per_layer: "10",
-    layers: "10",
-    palette_net: "1000 kg",
-    palette_size: "1200x800x1200 mm",
+      "Temperature ≤ 25 ⁰C, the relative humidity ≤ 85%, Shelf life no longer than 18 months from the date of manufacturing.",
+    logistic_information: {
+      primary_packaging: "25 kg – manylayers paper bag with PE liner",
+      label: "Paper ThermalTOP, 100x60 mm",
+      method: "Hot lock.",
+      img: "/images/whey_powder/logistic_box.png",
+    },
+    palette_details: {
+      units_per_palette: "30",
+      units_per_layer: "3",
+      layers: "10",
+      palette_net: "750 kg",
+      palette_size: "1200x800x1200",
+      img: "/images/whey_powder/palette_size.png",
+    },
   },
   {
-    id: 101010,
-    title: "Svalya Milk Powder",
-    img: "/images/Svalya_Milk_Powder.png",
-    energy_values:
-      "Whole milk powder ADPI Extra Grade. Ingredients: whole milk. Nutrition 100 g: energy value 2400kJ/574 kcal; protein 26.4 g; fat 32.1 g; saturated fat 21.6 g; carbohydrate 43.0 g; sugars 43.0 g; salt 0.6 g.",
+    id: 1003,
+    title: "Svalya Mozzarella 40 %",
+    img: "/images/mozzarella/mozzarella.png",
+    labeling: {
+      title:
+        "Diced/ Shredded frozen Cheese „Mozzarella“ 40% fat in dry matter.",
+      ingredients:
+        "Ingredients: cheese Mozzarella (pasteurized milk, salt, starter cultures, microbial rennet), anti-caking agent: starch potato*.",
+      nutrition:
+        "Packaged in a protective atmosphere.Nutrition 100 g: energy 1243 kJ/299 kcal; fat 21,5 g, of which: saturates 14,0 g; carbohydrate 1,8 g, of which: sugars 0,5 g, starch 1,3 g; food fibre 0 g, protein 24,5 g, salt 0,8 g. * Possibility of production with no anti-caking agent.",
+    },
     storage_conditions:
-      "Best before date: 18 months from packaging date, storage conditions before opening ≤ (minus) 25°C. Shelf life after opening: at temperature (0...+4)°C no longer than 30 days. Shelf life after defrosting: not applicable.",
-    logistic_information:
-      "Temperature ≤ 30°C, the relative humidity ≤ 85%. Shelf life no longer than 24 months from the date of manufacturing.",
-    primary_packaging: "Plastic film; dimension 180x220 mm; designation 1 kg",
-    method: "Spray-dried.",
-    secondary_packaging:
-      "Carton box, 12 units in carton, 12 kg net weight of packaged product.",
-    box_dimensions: "400x200x300 mm",
-    units_per_palette: "48",
-    units_per_layer: "4",
-    layers: "12",
-    palette_net: "576 kg",
-    palette_size: "1200x800x1200 mm",
+      "Best before date: 12 months from packing date, storage conditions before opening ≤ (minus) 18 C; Shelf life after opening: at temperature (0...+4) C no longer than 4 days; Shelf life after defrosting: at temperature (0...+4) C no longer than 7 days; Do not refreeze after defrosting.",
+    logistic_information: {
+      primary_packaging:
+        "Plastic film; dimension 280x370 mm (shredded), 280x370 mm (diced); designation 2 kg;",
+      label: "------",
+      method: "In a protective atmosphere.",
+      img: "/images/whey_powder/logistic_box.png",
+    },
+    palette_details: {
+      units_per_palette: "30",
+      units_per_layer: "3",
+      layers: "10",
+      palette_net: "750 kg",
+      palette_size: "1200x800x1200",
+      img: "/images/whey_powder/palette_size.png",
+    },
   },
   {
     id: 202020,

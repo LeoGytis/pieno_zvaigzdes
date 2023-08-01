@@ -5,6 +5,7 @@ export interface LogisticInformation {
   primary_packaging: string;
   label: string;
   method: string;
+  img: string;
 }
 
 export interface PaletteDetails {
@@ -13,16 +14,33 @@ export interface PaletteDetails {
   layers: string;
   palette_net: string;
   palette_size: string;
+  img: string;
 }
 
 export interface Product {
   id: number;
   title: string;
   img: string;
-  energy_values: string;
+  labeling: {
+    title: string;
+    ingredients: string;
+    nutrition: string;
+  };
   storage_conditions: string;
-  logistic_information: LogisticInformation;
-  palette_details: PaletteDetails;
+  logistic_information: {
+    primary_packaging: string;
+    label: string;
+    method: string;
+    img: string;
+  };
+  palette_details: {
+    units_per_palette: string;
+    units_per_layer: string;
+    layers: string;
+    palette_net: string;
+    palette_size: string;
+    img: string;
+  };
 }
 
 interface ProductsProps {

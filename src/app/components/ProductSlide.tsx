@@ -53,20 +53,23 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
               alt={product.title}
               width={500}
               height={500}
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
             <h1 className="text-6xl font-bold mb-10">{product.title}</h1>
             <div>
               <h2 className="font-bold mb-6">LABELING</h2>
-              <p className="text-grey mb-14">{product.energy_values}</p>
+              <p className="text-grey">{product.labeling.title}</p>
+              <p className="text-grey">{product.labeling.ingredients}</p>
+              <p className="text-grey mb-14">{product.labeling.nutrition}</p>
             </div>
 
             <div>
               <h2 className="font-bold text-blue mb-6">
                 SHELF LIFE AND STORAGE CONDITIONS
               </h2>
-              <p className="text-grey mb-14">{product.energy_values}</p>
+              <p className="text-grey mb-14">{product.storage_conditions}</p>
             </div>
 
             <div>
@@ -94,8 +97,12 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
               </div>
             </div>
             <div className="flex gap-10 mb-14">
-              <img src="/images/box_size.png" alt="box_sizing" />
-              <img src="/images/box_size2.png" alt="box_sizing" />
+              <Image
+                src={product.logistic_information.img}
+                alt="logistic_box"
+                width={100}
+                height={100}
+              />
             </div>
 
             <div className="pb-14">
@@ -131,6 +138,15 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
                 </p>
               </div>
             </div>
+            <div className="mb-14">
+              <Image
+                src={product.palette_details.img}
+                alt="palette_size"
+                width={110}
+                height={75}
+              />
+            </div>
+
             <div className="flex flex-col text-black gap-7 pb-20">
               <h2 className="font-bold text-blue">Contact Us</h2>
               <p className="-mb-3">info@svala.com</p>
