@@ -3,6 +3,9 @@ import Image from "next/image";
 import React, { useState } from "react";
 import ProductSlide1 from "./ProductSlide1";
 import ProductSlide2 from "./ProductSlide2";
+import ProductSlide3 from "./ProductSlide3";
+import ProductSlide4 from "./ProductSlide4";
+import ProductSlide5 from "./ProductSlide5";
 
 const Products = () => {
   const [selectedSlideIndex, setSelectedSlideIndex] = useState(null);
@@ -18,6 +21,9 @@ const Products = () => {
   const slideComponents = [
     <ProductSlide1 onClose={closeSlide} />,
     <ProductSlide2 onClose={closeSlide} />,
+    <ProductSlide3 onClose={closeSlide} />,
+    <ProductSlide4 onClose={closeSlide} />,
+    <ProductSlide5 onClose={closeSlide} />,
   ];
 
   return (
@@ -53,14 +59,67 @@ const Products = () => {
         >
           <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
             <Image
-              src="/images/milk_powder/milk_powder.png"
+              src="/images/whey_powder/sweet_whey_powder.png"
               alt="Milk Whey Powder"
               width={500}
               height={500}
             />
           </div>
           <div className="text-sm text-center text-slate-600">
-            Svalaya Wey Powder
+            Sweet Whey Powder
+          </div>
+        </div>
+        {/* --- Third Product --- */}
+        <div
+          className="flex flex-col items-center align-center hover:cursor-pointer m-4"
+          onClick={() => handleProductClick(2)}
+        >
+          <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
+            <Image
+              src="/images/mozzarella/mozzarella.png"
+              alt="Svalya Mozzarella"
+              width={500}
+              height={500}
+            />
+          </div>
+          <div className="text-sm text-center text-slate-600">
+            Svalya Mozzarella 40 %
+          </div>
+        </div>
+        {/* --- Forth Product --- */}
+        <div
+          className="flex flex-col items-center align-center hover:cursor-pointer m-4"
+          onClick={() => handleProductClick(3)}
+        >
+          <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
+            <Image
+              src="/images/moazzarella_strechy/mozzarella.png"
+              alt="Svalya Mozzarella"
+              width={500}
+              height={500}
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+          <div className="text-sm text-center text-slate-600">
+            Svalya Mozzarella 40 %
+          </div>
+        </div>
+        {/* --- Fifth Product --- */}
+        <div
+          className="flex flex-col items-center align-center hover:cursor-pointer m-4"
+          onClick={() => handleProductClick(4)}
+        >
+          <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
+            <Image
+              src="/images/mozzarella_pizza/mozzarella.png"
+              alt="Svalya Pizza Mozzarella"
+              width={500}
+              height={500}
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+          <div className="text-sm text-center text-slate-600">
+            Svalya Pizza Mozzarella 40 %
           </div>
         </div>
       </div>

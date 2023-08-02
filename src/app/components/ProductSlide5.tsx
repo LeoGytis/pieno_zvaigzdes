@@ -1,27 +1,18 @@
-// import React, { useEffect, useRef } from "react";
 import ContactUs from "./ContactUs";
-import { Product } from "./Products";
 import Image from "next/image";
+import { ProductSlideProps } from "./ProductSlide1";
 
-interface ProductSlideProps {
-  product: Product | null;
-  onCloseSlide: () => void;
-}
-
-const ProductSlide5 = () => {
-  // const productSlideRef = useRef<HTMLDivElement | null>(null);
-
+const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
   return (
     <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-50 flex justify-start items-center">
       <div
         className="bg-white md:w-11/12 h-full overflow-auto transform transition-transform duration-1000 animate-product-slide"
-        // ref={productSlideRef}
         onClick={(event) => event.stopPropagation()}
       >
         <div className="flex justify-end pt-2 pr-4">
           <button
             className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black"
-            // onClick={onCloseSlide}
+            onClick={onClose}
           >
             &#10005;
           </button>
@@ -29,15 +20,17 @@ const ProductSlide5 = () => {
         <div className="flex flex-col md:flex-row h-full">
           <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
             <Image
-              src="/images/moazzarella_strechy/mozzarella.png"
-              alt="Svalya Mozzarella"
+              src="/images/mozzarella_pizza/mozzarella.png"
+              alt="Svalya Pizza Mozzarella"
               width={500}
               height={500}
               style={{ objectFit: "contain" }}
             />
           </div>
           <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
-            <h1 className="text-6xl font-bold mb-10">Svalya Mozzarella 40 %</h1>
+            <h1 className="text-6xl font-bold mb-10">
+              Svalya Pizza Mozzarella 40 %
+            </h1>
             <div className="flex max-h-20 gap-6 mb-10">
               <Image
                 src="/images/tokens/token_03.png"
