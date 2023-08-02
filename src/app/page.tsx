@@ -5,6 +5,7 @@ import Products, { Product } from "./components/Products";
 import { ProductsArray } from "./data/products2";
 import ProductSlide3 from "./components/ProductSlide3";
 import ProductSlide4 from "./components/ProductSlide4";
+import ProductSlide5 from "./components/ProductSlide5";
 
 const Home = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
@@ -30,7 +31,7 @@ const Home = () => {
           onCloseSlide={handleCloseSlide}
         />
       )}
-      <ProductSlide4 />
+      <ProductSlide5 />
     </>
   );
 };

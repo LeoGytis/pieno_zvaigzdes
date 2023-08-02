@@ -8,7 +8,7 @@ interface ProductSlideProps {
   onCloseSlide: () => void;
 }
 
-const ProductSlide4 = () => {
+const ProductSlide5 = () => {
   // const productSlideRef = useRef<HTMLDivElement | null>(null);
 
   return (
@@ -51,23 +51,27 @@ const ProductSlide4 = () => {
                 For grating, shredding, dicing, slicing
               </h2>
               <Image
-                src="/images/moazzarella_strechy/diced_in_cubes.png"
+                src="/images/mozzarella/diced_in_stripes.png"
                 alt="token__"
                 width={217}
                 height={119}
               />
             </div>
+
             <div className="text-grey mb-14">
               <h2 className="font-bold text-blue mb-6">LABELING</h2>
-              <p>Cheese “Mozzarella” 40% fat in dry matter.</p>
               <p>
-                Ingredients: pasteurized milk, salt, starter cultures, microbial
-                rennet.
+                Cheese product with vegetable fat PIZZA MOZZARELLA, 40% fat in
+                dry matter.
+              </p>
+              <p>
+                Ingredients: pasteurized cow’s milk, palm oil 19%, salt, starter
+                cultures, microbial rennet.
               </p>
               <p className="text-grey mb-6">
-                Nutrition 100 g: energy 1221 kJ / 294 kcal; fat 21,5 g, of
-                which: saturates 14,0 g; carbohydrate 0,5 g, of which: sugars
-                0,5 g; protein 24,5 g, salt 0,8.
+                Nutrition 100 g: energy 1221 kJ / 294 kcal; fat 21,5 g, of which
+                saturates 10,0 g; carbohydrate 0,5 g, of which sugars 0,5;
+                protein 24,5 g, salt 1,0 g.
               </p>
             </div>
             <div className="text-grey mb-14">
@@ -79,7 +83,7 @@ const ProductSlide4 = () => {
                 date.
               </p>
               <p>
-                Temperature lower than (-18) °C No longer than 18 months from
+                Temperature lower than (-18) °C No longer than 12 months from
                 production date.
               </p>
             </div>
@@ -110,7 +114,6 @@ const ProductSlide4 = () => {
                 height={101}
               />
             </div>
-
             <div className="text-grey leading-7 mb-14">
               <div>
                 <strong>Secondary ( group) packaging:</strong>
@@ -177,4 +180,4 @@ const ProductSlide4 = () => {
   );
 };
 
-export default ProductSlide4;
+export default ProductSlide5;
