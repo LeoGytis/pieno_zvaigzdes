@@ -1,7 +1,29 @@
 import React, { useEffect, useRef } from "react";
-import { Product } from "./Products";
 import Image from "next/image";
 
+export interface LogisticInformation {
+  primary_packaging: string;
+  label: string;
+  method: string;
+}
+
+export interface PaletteDetails {
+  units_per_palette: string;
+  units_per_layer: string;
+  layers: string;
+  palette_net: string;
+  palette_size: string;
+}
+
+export interface Product {
+  id: number;
+  title: string;
+  img: string;
+  energy_values: string;
+  storage_conditions: string;
+  logistic_information: LogisticInformation;
+  palette_details: PaletteDetails;
+}
 interface ProductSlideProps {
   product: Product | null;
   onCloseSlide: () => void;
@@ -60,9 +82,9 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
             <h1 className="text-6xl font-bold mb-10">{product.title}</h1>
             <div>
               <h2 className="font-bold mb-6">LABELING</h2>
-              <p className="text-grey">{product.labeling.title}</p>
+              {/* <p className="text-grey">{product.labeling.title}</p>
               <p className="text-grey">{product.labeling.ingredients}</p>
-              <p className="text-grey mb-14">{product.labeling.nutrition}</p>
+              <p className="text-grey mb-14">{product.labeling.nutrition}</p> */}
             </div>
 
             <div>
@@ -96,14 +118,14 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-10 mb-14">
+            {/* <div className="flex gap-10 mb-14">
               <Image
                 src={product.logistic_information.img}
                 alt="logistic_box"
                 width={100}
                 height={100}
               />
-            </div>
+            </div> */}
 
             <div className="pb-14">
               <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
@@ -138,14 +160,14 @@ const ProductSlide = ({ product, onCloseSlide }: ProductSlideProps) => {
                 </p>
               </div>
             </div>
-            <div className="mb-14">
+            {/* <div className="mb-14">
               <Image
                 src={product.palette_details.img}
                 alt="palette_size"
                 width={110}
                 height={75}
               />
-            </div>
+            </div> */}
 
             <div className="flex flex-col text-black gap-7 pb-20">
               <h2 className="font-bold text-blue">Contact Us</h2>
