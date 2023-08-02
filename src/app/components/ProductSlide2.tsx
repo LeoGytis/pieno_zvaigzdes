@@ -1,7 +1,8 @@
 import Image from "next/image";
 import ContactUs from "./ContactUs";
+import { ProductSlideProps } from "./ProductSlide1";
 
-const ProductSlide2 = () => {
+const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
   return (
     <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-50 flex justify-start items-center">
       <div
@@ -9,7 +10,10 @@ const ProductSlide2 = () => {
         onClick={(event) => event.stopPropagation()}
       >
         <div className="flex justify-end pt-2 pr-4">
-          <button className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black">
+          <button
+            className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black"
+            onClick={onClose}
+          >
             &#10005;
           </button>
         </div>
