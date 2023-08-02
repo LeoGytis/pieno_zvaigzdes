@@ -67,7 +67,9 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
               </div>
               <div className="flex">
                 <p className="font-bold text-grey mb-2">Label:&nbsp;</p>
-                <p className="text-grey mb-2">Paper ThermalTOP, 100x60 mm"</p>
+                <p className="text-grey mb-2">
+                  Paper ThermalTOP, 100x60 mm&quot;
+                </p>
               </div>
 
               <div className="flex">

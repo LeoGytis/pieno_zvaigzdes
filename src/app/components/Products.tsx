@@ -1,4 +1,3 @@
-// Products.js
 import Image from "next/image";
 import React, { useState } from "react";
 import ProductSlide1 from "./ProductSlide1";
@@ -19,11 +18,11 @@ const Products = () => {
   };
 
   const slideComponents = [
-    <ProductSlide1 onClose={closeSlide} />,
-    <ProductSlide2 onClose={closeSlide} />,
-    <ProductSlide3 onClose={closeSlide} />,
-    <ProductSlide4 onClose={closeSlide} />,
-    <ProductSlide5 onClose={closeSlide} />,
+    <ProductSlide1 key={0} onClose={closeSlide} />,
+    <ProductSlide2 key={1} onClose={closeSlide} />,
+    <ProductSlide3 key={2} onClose={closeSlide} />,
+    <ProductSlide4 key={3} onClose={closeSlide} />,
+    <ProductSlide5 key={4} onClose={closeSlide} />,
   ];
 
   return (
