@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import ProductSlide from "./components/ProductSlide";
-import Products, { Product } from "./components/Products";
+import Products from "./components/Products";
 import { ProductsArray } from "./data/products2";
 import ProductSlide3 from "./components/ProductSlide3";
 import ProductSlide4 from "./components/ProductSlide4";
@@ -10,30 +10,21 @@ import ProductSlide1 from "./components/ProductSlide1";
 import ProductSlide2 from "./components/ProductSlide2";
 
 const Home = () => {
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  // const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
-  const handleProductClick = (productId: number) => {
-    const product = ProductsArray.find((product) => product.id === productId);
-    setSelectedProduct(product || null);
-  };
+  // const handleProductClick = (productId: number) => {
+  //   setSelectedProduct(product || null);
+  // };
 
-  const handleCloseSlide = () => {
-    setSelectedProduct(null);
-  };
+  // const handleCloseSlide = () => {
+  //   setSelectedProduct(null);
+  // };
 
   return (
     <>
-      <Products
-        products={ProductsArray}
-        handleProductClick={handleProductClick}
-      />
-      {selectedProduct && (
-        <ProductSlide
-          product={selectedProduct}
-          onCloseSlide={handleCloseSlide}
-        />
-      )}
-      <ProductSlide2 />
+      <Products />
+
+      {/* <ProductSlide2 /> */}
     </>
   );
 };

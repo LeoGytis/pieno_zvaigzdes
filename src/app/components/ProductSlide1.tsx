@@ -1,7 +1,11 @@
 import Image from "next/image";
 import ContactUs from "./ContactUs";
 
-const ProductSlide1 = () => {
+interface ProductSlideProps {
+  onClose: () => void;
+}
+
+const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
   return (
     <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-50 flex justify-start items-center">
       <div
@@ -9,14 +13,17 @@ const ProductSlide1 = () => {
         onClick={(event) => event.stopPropagation()}
       >
         <div className="flex justify-end pt-2 pr-4">
-          <button className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black">
+          <button
+            className="text-lg font-semibold text-gray-300 transition-all duration-300 hover:text-black"
+            onClick={onClose}
+          >
             &#10005;
           </button>
         </div>
         <div className="flex flex-col md:flex-row h-full">
           <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
             <Image
-              src="/images/milk_powder/Svalya_Skimmed_Milk_Powder.png"
+              src="/images/milk_powder/milk_powder.png"
               alt="Milk_Powder"
               width={500}
               height={500}
