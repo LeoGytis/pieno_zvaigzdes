@@ -33,7 +33,7 @@ const Products = () => {
           Assortiment
         </h3>
       </div>
-      <div className="flex gap-6 md:w-4/5 flex-col md:flex-row justify-around">
+      <div className="flex gap-6 md:w-4/5 flex-col md:flex-row justify-around items-center">
         {/* --- First Product --- */}
         <div
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
@@ -90,9 +90,9 @@ const Products = () => {
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(3)}
         >
-          <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
+          <div className="flex h-32 w-28 md:h-20 md:w-20 lg:h-28 lg:w-32 pb-4">
             <Image
-              src="/images/moazzarella_strechy/mozzarella.png"
+              src="/images/mozzarella_strechy/mozzarella.png"
               alt="Svalya Mozzarella"
               width={500}
               height={500}
@@ -108,7 +108,7 @@ const Products = () => {
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(4)}
         >
-          <div className="flex h-32 w-28 md:h-20 md:w-12 lg:h-28 lg:w-16 pb-4">
+          <div className="flex h-32 w-28 md:h-20 md:w-20 lg:h-28 lg:w-32 pb-4">
             <Image
               src="/images/mozzarella_pizza/mozzarella.png"
               alt="Svalya Pizza Mozzarella"
