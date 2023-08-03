@@ -56,7 +56,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 Available in various forms and sizes IQF and frozen:
               </h2>
               <Image
-                src="/images/mozzarella/diced_in_cubes.png"
+                src="/images/mozzarella_shredded/diced_in_cubes.png"
                 alt="token__"
                 width={217}
                 height={119}
@@ -66,7 +66,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 fraction cuts: 3x3x3 mm, 6x6x6 mm, 10x10x10 mm
               </p>
               <Image
-                src="/images/mozzarella/shredded.png"
+                src="/images/mozzarella_shredded/shredded.png"
                 alt="token__"
                 width={217}
                 height={119}
@@ -74,7 +74,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <p className="mt-6">Shredded</p>
               <p className="mb-10"> fraction cuts: 3x1, 5x30 mm</p>
               <Image
-                src="/images/mozzarella/diced_in_stripes.png"
+                src="/images/mozzarella_shredded/diced_in_stripes.png"
                 alt="token__"
                 width={217}
                 height={119}
@@ -200,7 +200,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="mb-14">
               <Image
-                src="/images/mozzarella/palette_size.png"
+                src="/images/mozzarella_shredded/palette_size.png"
                 alt="palette_size"
                 width={153}
                 height={120}
@@ -222,7 +222,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/mozzarella/logistic_box.png"
+                src="/images/mozzarella_shredded/logistic_box.png"
                 alt="logistic_box"
                 width={106}
                 height={132}
@@ -243,7 +243,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/mozzarella/logistic_box_secondary.png"
+                src="/images/mozzarella_shredded/logistic_box_secondary.png"
                 alt="logistic_box_secondary"
                 width={149}
                 height={120}
@@ -285,7 +285,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="mb-14">
               <Image
-                src="/images/mozzarella/palette_size.png"
+                src="/images/mozzarella_shredded/palette_size.png"
                 alt="palette_size"
                 width={153}
                 height={120}
