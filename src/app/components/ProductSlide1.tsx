@@ -21,7 +21,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
           </button>
         </div>
         <div className="flex flex-col md:flex-row h-full">
-          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
+          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-24">
             <Image
               src="/images/milk_powder/milk_powder.png"
               alt="Milk_Powder"
@@ -35,8 +35,8 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
               Svalya Skimmed Milk Powder
             </h1>
             <div>
-              <h2 className="font-bold mb-6">LABELING</h2>
-              <p className="text-grey">Svalya Skimmed Milk Powder</p>
+              <h2 className="text-[18px] font-bold mb-6">LABELING</h2>
+              <p className="text-grey">Skimmed milk powder ADPI Extra Grade.</p>
               <p className="text-grey">Ingredients: skimmed milk</p>
               <p className="text-grey mb-14">
                 Nutrition 100g: energy value 1482kJ/348 kcal; protein 35,1 g;
@@ -46,7 +46,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div>
-              <h2 className="font-bold text-blue mb-6">
+              <h2 className="text-[18px] font-bold text-blue mb-6">
                 SHELF LIFE AND STORAGE CONDITIONS
               </h2>
               <p className="text-grey mb-14">
@@ -56,7 +56,9 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div>
-              <h2 className="font-bold text-blue mb-6">Logistic information</h2>
+              <h2 className="text-[18px] font-bold text-blue mb-6">
+                Logistic information
+              </h2>
               <div className="flex">
                 <p className="font-bold text-grey mb-2">
                   Primary packaging:&nbsp;
@@ -87,7 +89,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div className="pb-14">
-              <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+              <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
               <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">

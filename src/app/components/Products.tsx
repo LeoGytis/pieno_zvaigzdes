@@ -108,7 +108,7 @@ const Products = () => {
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(4)}
         >
-          <div className="flex h-32 w-28 md:h-20 md:w-20 lg:h-32 lg:w-32 pb-4">
+          <div className="flex h-32 w-28 md:h-20 md:w-20 lg:h-32 lg:w-36 pb-4">
             <Image
               src="/images/mozzarella_pizza/mozzarella.png"
               alt="Svalya Pizza Mozzarella"

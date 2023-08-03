@@ -18,7 +18,7 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
           </button>
         </div>
         <div className="flex flex-col md:flex-row h-full">
-          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
+          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-24">
             <Image
               src="/images/whey_powder/sweet_whey_powder.png"
               alt="Whey_powder"
@@ -30,7 +30,7 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
           <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
             <h1 className="text-6xl font-bold mb-10">Sweet Whey Powder</h1>
             <div>
-              <h2 className="font-bold mb-6">LABELING</h2>
+              <h2 className="text-[18px] font-bold mb-6">LABELING</h2>
               <p className="text-grey">Sweet whey powder</p>
               <p className="text-grey">Ingredients: whey</p>
               <p className="text-grey mb-14">
@@ -41,7 +41,7 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div>
-              <h2 className="font-bold text-blue mb-6">
+              <h2 className="text-[18px] font-bold text-blue mb-6">
                 SHELF LIFE AND STORAGE CONDITIONS
               </h2>
               <p className="text-grey mb-14">
@@ -51,7 +51,9 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div>
-              <h2 className="font-bold text-blue mb-6">Logistic information</h2>
+              <h2 className="text-[18px] font-bold text-blue mb-6">
+                Logistic information
+              </h2>
               <div className="flex">
                 <p className="font-bold text-grey mb-2">
                   Primary packaging:&nbsp;
@@ -82,7 +84,7 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div className="pb-14">
-              <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+              <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
               <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">

@@ -49,7 +49,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               />
             </div>
             <div className="text-grey mb-14">
-              <h2 className="font-bold text-blue mb-6">LABELING</h2>
+              <h2 className="text-[18px] font-bold text-blue mb-6">LABELING</h2>
               <p>Cheese “Mozzarella” 40% fat in dry matter.</p>
               <p>
                 Ingredients: pasteurized milk, salt, starter cultures, microbial
@@ -62,7 +62,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               </p>
             </div>
             <div className="text-grey mb-14">
-              <h2 className="font-bold text-blue mb-6">
+              <h2 className="text-[18px] font-bold text-blue mb-6">
                 SHELF LIFE AND STORAGE CONDITIONS
               </h2>
               <p>
@@ -75,7 +75,9 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               </p>
             </div>
             <div className="text-grey leading-7 mb-14">
-              <h2 className="font-bold text-blue mb-6">Logistic information</h2>
+              <h2 className="text-[18px] font-bold text-blue mb-6">
+                Logistic information
+              </h2>
               <div>
                 <strong>Primary packaging:</strong>
                 <p className="pl-1">

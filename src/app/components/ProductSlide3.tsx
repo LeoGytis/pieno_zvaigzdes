@@ -83,7 +83,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <p className="mb-10">fraction cuts: 3x3x10 mm, 3x3x30 mm</p>
             </div>
             <div>
-              <h2 className="font-bold mb-6">LABELING</h2>
+              <h2 className="text-[18px] font-bold mb-6">LABELING</h2>
               <p className="text-grey">
                 Diced/ Shredded frozen Cheese „Mozzarella“ 40% fat in dry
                 matter.
@@ -104,7 +104,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               </p>
             </div>
             <div className="text-grey">
-              <h2 className="font-bold text-blue mb-6">
+              <h2 className="text-[18px] font-bold text-blue mb-6">
                 SHELF LIFE AND STORAGE CONDITIONS
               </h2>
               <p>
@@ -122,7 +122,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <p className="mb-14">Do not refreeze after defrosting.</p>
             </div>
             <div className="text-grey mb-14">
-              <h2 className="font-bold text-blue mb-6">
+              <h2 className="text-[18px] font-bold text-blue mb-6">
                 IQF Logistic information
               </h2>
               <div>
@@ -165,7 +165,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               />
             </div>
             <div className="text-grey pb-14">
-              <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+              <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
               <h2 className="flex justify-center gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
@@ -207,7 +207,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               />
             </div>
             <div className="text-grey mb-14">
-              <h2 className="font-bold text-blue mb-6">
+              <h2 className="text-[18px] font-bold text-blue mb-6">
                 NON IQF Logistic information
               </h2>
               <div>
@@ -250,7 +250,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               />
             </div>
             <div className="text-grey pb-14">
-              <h2 className="font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+              <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
               <h2 className="flex justify-center gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
