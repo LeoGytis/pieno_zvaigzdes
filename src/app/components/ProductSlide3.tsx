@@ -20,7 +20,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
         <div className="flex flex-col md:flex-row h-full">
           <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
             <Image
-              src="/images/mozzarella/mozzarella.png"
+              src="/images/mozzarella_shredded/mozzarella.png"
               alt="Svalya Mozzarella"
               width={500}
               height={500}
