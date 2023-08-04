@@ -137,7 +137,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/mozzarella/logistic_box.png"
+                src="/images/mozzarella_shredded/logistic_box.png"
                 alt="logistic_box"
                 width={106}
                 height={132}
@@ -158,7 +158,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/mozzarella/logistic_box_secondary.png"
+                src="/images/mozzarella_shredded/logistic_box_secondary.png"
                 alt="logistic_box_secondary"
                 width={149}
                 height={120}

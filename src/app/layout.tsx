@@ -2,7 +2,6 @@ import "./globals.css";
 import { Ubuntu } from "next/font/google";
 import type { Metadata } from "next";
 import Header from "./components/layout/Header";
-import ProductSlide3 from "./components/ProductSlide3";
 import Footer from "./components/layout/Footer";
 
 export const metadata: Metadata = {

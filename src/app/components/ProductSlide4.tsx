@@ -32,7 +32,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
             <div className="flex max-h-20 gap-6 mb-10">
               <Image
                 src="/images/tokens/token_03.png"
-                alt="token__"
+                alt="token"
                 width={57}
                 height={67}
               />
@@ -97,7 +97,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/moazzarella_strechy/logistic_box.png"
+                src="/images/mozzarella_strechy/logistic_box.png"
                 alt="logistic_box"
                 width={204}
                 height={101}
@@ -120,8 +120,8 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/moazzarella_strechy/palette_size.png"
-                alt="logistic_box_secondary"
+                src="/images/mozzarella_strechy/palette_size.png"
+                alt="palette size"
                 width={149}
                 height={120}
               />

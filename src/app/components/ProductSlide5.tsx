@@ -103,7 +103,7 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/moazzarella_strechy/logistic_box.png"
+                src="/images/moazzarella_pizza/logistic_box.png"
                 alt="logistic_box"
                 width={204}
                 height={101}
@@ -125,8 +125,8 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
             </div>
             <div className="flex gap-10 mb-14">
               <Image
-                src="/images/moazzarella_strechy/palette_size.png"
-                alt="logistic_box_secondary"
+                src="/images/moazzarella_pizza/palette_size.png"
+                alt="palette_size"
                 width={149}
                 height={120}
               />
