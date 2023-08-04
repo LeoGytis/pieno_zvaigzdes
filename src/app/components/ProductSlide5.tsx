@@ -127,42 +127,57 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
                 height={120}
               />
             </div>
-            <div className="text-grey pb-14">
-              <h2 className="flex justify-center gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
-                <p>60 units per palette</p>
-                <p>83 units per palette</p>
+
+            {/* ======================================================== */}
+
+            <div className="pb-14">
+              <h2 className="p_header table_row !text-start !text-blue">
+                Palette details
               </h2>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Units per palette</p>
-                <p className="w-40">60</p>
-                <p>83</p>
-              </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Units per layer</p>
-                <p className="w-40">5</p>
-                <p>5</p>
-              </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Layers</p>
-                <p className="w-40">12</p>
-                <p>17</p>
-              </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Palette net</p>
-                <p className="w-40">720 kg</p>
-                <p>1000 kg</p>
-              </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Size (LxW), mm</p>
-                <p className="w-40">1200.800</p>
-                <p>1200.800</p>
-              </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Type</p>
-                <p className="w-40">Wood, EUR, one-way pallet</p>
-                <p>Wood, EUR, one-way pallet</p>
+              <div className="flex">
+                <div className="!text-blue w-1/3">
+                  <div className="table_row !text-start">&nbsp;</div>
+                  <div className="table_row !text-start !text-blue">
+                    Units per palette
+                  </div>
+                  <div className="table_row !text-start !text-blue">
+                    Units per layer
+                  </div>
+                  <div className="table_row !text-start !text-blue">Layers</div>
+                  <div className="table_row !text-start !text-blue">
+                    Palette net
+                  </div>
+                  <div className="table_row !text-start !text-blue">
+                    Size (LxWxH), mm
+                  </div>
+                  <div className="table_row !text-start !text-blue">Type</div>
+                </div>
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="table_row p_header !text-blue">
+                    60 units per pallet
+                  </div>
+                  <div className="table_row">60</div>
+                  <div className="table_row">5</div>
+                  <div className="table_row">12</div>
+                  <div className="table_row">720 kg</div>
+                  <div className="table_row">1200.800</div>
+                  <div className="table_row">Wood, EUR, one-way pallet</div>
+                </div>
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="table_row p_header !text-blue">
+                    83 units per pallet
+                  </div>
+                  <div className="table_row">83</div>
+                  <div className="table_row">5</div>
+                  <div className="table_row">17</div>
+                  <div className="table_row">1000 kg</div>
+                  <div className="table_row">1200.800</div>
+                  <div className="table_row">Wood, EUR, one-way pallet</div>
+                </div>
               </div>
             </div>
+
+            {/* ======================================================== */}
             <ContactUs />
           </div>
         </div>
