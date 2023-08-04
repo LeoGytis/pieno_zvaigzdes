@@ -28,7 +28,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             />
           </div>
           <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
-            <h1 className="text-6xl font-bold mb-10">Svalya Mozzarella 40 %</h1>
+            <h1 className="text-6xl font-bold mb-10">Svalya Mozzarella 40%</h1>
             <div className="flex max-h-20 gap-6 mb-10">
               <div>
                 <Image
@@ -160,73 +160,49 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 height={120}
               />
             </div>
-            <div className="text-grey pb-14">
-              <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+            {/* ======================================================== */}
+
+            <div className="pb-14">
+              <h2 className="p_header table_row !text-start !text-blue">
                 Palette details
               </h2>
-              {/* ==================================== */}
-
               <div className="flex">
-                <div className="text-blue w-1/3">
-                  <p className="border-b border-gray-300 pb-4 mb-4">.</p>
-                  <p className="border-b border-gray-300 pb-4 mb-4">
+                <div className="!text-blue w-1/3">
+                  <div className="table_row !text-start">&nbsp;</div>
+                  <div className="table_row !text-start !text-blue">
                     Units per palette
-                  </p>
-                  <p className="border-b border-gray-300 pb-4 mb-4">
+                  </div>
+                  <div className="table_row !text-start !text-blue">
                     Units per layer
-                  </p>
-                  <p className="border-b border-gray-300 pb-4 mb-4">Layers</p>
-                  <p className="border-b border-gray-300 pb-4 mb-4">
+                  </div>
+                  <div className="table_row !text-start !text-blue">Layers</div>
+                  <div className="table_row !text-start !text-blue">
                     Palette net
-                  </p>
-                  <p className="border-b border-gray-300 pb-4 mb-4">
+                  </div>
+                  <div className="table_row !text-start !text-blue">
                     Size (LxWxH), mm
-                  </p>
-                </div>
-                <div className="flex flex-col justify-end items-end w-1/3">
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    diced
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    60
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    6
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    10
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    720 kg
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    1200x800x2350
                   </div>
                 </div>
                 <div className="flex flex-col justify-end items-end w-1/3">
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    diced
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    60
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    6
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    10
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    720 kg
-                  </div>
-                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
-                    1200x800x2350
-                  </div>
+                  <div className="table_row p_header !text-blue">shredded</div>
+                  <div className="table_row">60</div>
+                  <div className="table_row">6</div>
+                  <div className="table_row">10</div>
+                  <div className="table_row">720 kg</div>
+                  <div className="table_row">1200x800x2350</div>
+                </div>
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="table_row p_header !text-blue">diced</div>
+                  <div className="table_row">60</div>
+                  <div className="table_row">6</div>
+                  <div className="table_row">10</div>
+                  <div className="table_row">720 kg</div>
+                  <div className="table_row">1200x800x2350</div>
                 </div>
               </div>
-
-              {/* ==================================== */}
             </div>
+
+            {/* ======================================================== */}
             <div className="mb-14">
               <Image
                 src="/images/mozzarella_shredded/palette_size.png"
@@ -276,52 +252,49 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 height={120}
               />
             </div>
-            <div className="text-grey pb-14">
-              <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+            {/* ======================================================== */}
+
+            <div className="pb-14">
+              <h2 className="p_header table_row !text-start !text-blue">
                 Palette details
               </h2>
-              <h2 className="flex justify-end gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
-                <div className="flex">
-                  <p className="w-64">shredded</p>
-                  <p>diced</p>
+              <div className="flex">
+                <div className="!text-blue w-1/3">
+                  <div className="table_row !text-start">&nbsp;</div>
+                  <div className="table_row !text-start !text-blue">
+                    Units per palette
+                  </div>
+                  <div className="table_row !text-start !text-blue">
+                    Units per layer
+                  </div>
+                  <div className="table_row !text-start !text-blue">Layers</div>
+                  <div className="table_row !text-start !text-blue">
+                    Palette net
+                  </div>
+                  <div className="table_row !text-start !text-blue">
+                    Size (LxWxH), mm
+                  </div>
                 </div>
-              </h2>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Units per palette</p>
-                <div className="flex">
-                  <p className="w-60">60</p>
-                  <p>60</p>
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="table_row p_header !text-blue">shredded</div>
+                  <div className="table_row">60</div>
+                  <div className="table_row">6</div>
+                  <div className="table_row">10</div>
+                  <div className="table_row">720 kg</div>
+                  <div className="table_row">1200x800x2350</div>
                 </div>
-              </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Units per layer</p>
-                <div className="flex">
-                  <p className="w-60">6</p>
-                  <p>6</p>
-                </div>
-              </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Layers</p>
-                <div className="flex">
-                  <p className="w-60">10</p>
-                  <p>10</p>
-                </div>
-              </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Palette net</p>
-                <div className="flex">
-                  <p className="w-60">720 kg</p>
-                  <p>720 kg</p>
-                </div>
-              </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Size (LxWxH), mm</p>
-                <div className="flex">
-                  <p className="w-60">1200x800x2350</p>
-                  <p>1200x800x2350</p>
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="table_row p_header !text-blue">diced</div>
+                  <div className="table_row">60</div>
+                  <div className="table_row">6</div>
+                  <div className="table_row">10</div>
+                  <div className="table_row">720 kg</div>
+                  <div className="table_row">1200x800x2350</div>
                 </div>
               </div>
             </div>
+
+            {/* ======================================================== */}
             <div className="mb-14">
               <Image
                 src="/images/mozzarella_shredded/palette_size.png"

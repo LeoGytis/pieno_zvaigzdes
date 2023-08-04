@@ -49,11 +49,15 @@ body {
 .p_header {
   font-size: 18px;
   font-weight: 700;
-  color: #113b85;
   margin-bottom: 1.5rem;
 }
 
-
-
-
-
+.table_row {
+  width: 100%;
+  white-space: nowrap;
+  text-align: end; 
+  color: #808080;
+  border-bottom: 1px solid #D1D5DB;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
