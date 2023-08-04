@@ -21,7 +21,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
           </button>
         </div>
         <div className="flex flex-col md:flex-row h-full">
-          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-24">
+          <div className="flex justify-center max-h-96 md:max-h-none md:w-1/2 p-10 lg:p-24">
             <Image
               src="/images/milk_powder/milk_powder.png"
               alt="Milk_Powder"
@@ -30,7 +30,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
               style={{ objectFit: "contain" }}
             />
           </div>
-          <div className="md:w-1/2 text-sm  pl-16 pr-28 py-5 lg:py-16">
+          <div className="md:w-1/2 text-sm pl-16 pr-28 py-5 lg:py-16">
             <h1 className="text-6xl text-blue font-bold mb-10">
               Svalya Skimmed Milk Powder
             </h1>

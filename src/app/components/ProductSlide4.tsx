@@ -18,7 +18,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
           </button>
         </div>
         <div className="flex flex-col md:flex-row h-full">
-          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-40">
+          <div className="flex justify-center max-h-96 md:max-h-none md:w-1/2 p-10 md:p-20 lg:p-40">
             <Image
               src="/images/mozzarella_strechy/mozzarella.png"
               alt="Svalya Mozzarella"

@@ -18,7 +18,7 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
           </button>
         </div>
         <div className="flex flex-col md:flex-row h-full">
-          <div className="flex justify-center md:w-1/2 p-10 md:p-20 lg:p-24">
+          <div className="flex justify-center max-h-96 md:max-h-none md:w-1/2 p-10 md:p-20 lg:p-24">
             <Image
               src="/images/whey_powder/sweet_whey_powder.png"
               alt="Whey_powder"
