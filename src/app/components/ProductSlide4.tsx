@@ -42,8 +42,8 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
                 For grating, shredding, dicing, slicing
               </h2>
               <Image
-                src="/images/moazzarella_strechy/diced_in_cubes.png"
-                alt="token__"
+                src="/images/mozzarella_strechy/diced_in_cubes.png"
+                alt="Diced in cubes"
                 width={217}
                 height={119}
               />

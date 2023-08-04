@@ -34,7 +34,7 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
             <div className="flex max-h-20 gap-6 mb-10">
               <Image
                 src="/images/tokens/token_03.png"
-                alt="token__"
+                alt="token"
                 width={57}
                 height={67}
               />
@@ -44,8 +44,8 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
                 For grating, shredding, dicing, slicing
               </h2>
               <Image
-                src="/images/mozzarella/diced_in_stripes.png"
-                alt="token__"
+                src="/images/mozzarella_pizza/diced_in_stripes.png"
+                alt="Diced in stripes"
                 width={217}
                 height={119}
               />

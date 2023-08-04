@@ -33,20 +33,20 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <div>
                 <Image
                   src="/images/tokens/token_01.png"
-                  alt="token__"
+                  alt="token"
                   width={79}
                   height={77}
                 />
               </div>
               <Image
                 src="/images/tokens/token_02.png"
-                alt="token__"
+                alt="token"
                 width={114}
                 height={67}
               />
               <Image
                 src="/images/tokens/token_03.png"
-                alt="token__"
+                alt="token"
                 width={57}
                 height={67}
               />

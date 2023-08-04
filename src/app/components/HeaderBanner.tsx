@@ -1,7 +1,9 @@
 const HeaderBanner: any = () => {
   return (
-    <div className="flex items-center text-center justify-center text-4xl h-56">
-      Business solutions & ingredients
+    <div className="flex items-center h-60 lg:h-[400px]">
+      <div className="text-3xl sm:text-5xl lg:text-[71px] font-bold text-blue  ml-8 sm:ml-20 lg:ml-44">
+        Business solutions<br></br> & ingredients
+      </div>
     </div>
   );
 };
