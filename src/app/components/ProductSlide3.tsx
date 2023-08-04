@@ -57,7 +57,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               </h2>
               <Image
                 src="/images/mozzarella_shredded/diced_in_cubes.png"
-                alt="token__"
+                alt="diced_in_cubes"
                 width={217}
                 height={119}
               />
@@ -67,7 +67,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               </p>
               <Image
                 src="/images/mozzarella_shredded/shredded.png"
-                alt="token__"
+                alt="shredded"
                 width={217}
                 height={119}
               />
@@ -75,7 +75,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <p className="mb-10"> fraction cuts: 3x1, 5x30 mm</p>
               <Image
                 src="/images/mozzarella_shredded/diced_in_stripes.png"
-                alt="token__"
+                alt="diced_in_stripes"
                 width={217}
                 height={119}
               />
@@ -164,34 +164,46 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
-              <h2 className="flex justify-center gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
-                <p>shredded</p>
-                <p>diced</p>
+              <h2 className="flex justify-end gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+                <div className="flex">
+                  <p className="w-64">shredded</p>
+                  <p>diced</p>
+                </div>
               </h2>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Units per palette</p>
-                <p className="w-40">60</p>
-                <p>60</p>
+                <div className="flex">
+                  <p className="w-60">60</p>
+                  <p>60</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Units per layer</p>
-                <p className="w-40">6</p>
-                <p>6</p>
+                <div className="flex">
+                  <p className="w-60">6</p>
+                  <p>6</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Layers</p>
-                <p className="w-40">10</p>
-                <p>10</p>
+                <div className="flex">
+                  <p className="w-60">10</p>
+                  <p>10</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Palette net</p>
-                <p className="w-40">720 kg</p>
-                <p>720 kg</p>
+                <div className="flex">
+                  <p className="w-60">720 kg</p>
+                  <p>720 kg</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Size (LxWxH), mm</p>
-                <p className="w-40">1200x800x2350</p>
-                <p>1200x800x2350</p>
+                <div className="flex">
+                  <p className="w-60">1200x800x2350</p>
+                  <p>1200x800x2350</p>
+                </div>
               </div>
             </div>
             <div className="mb-14">
@@ -247,34 +259,46 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
-              <h2 className="flex justify-center gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
-                <p>shredded</p>
-                <p>diced</p>
+              <h2 className="flex justify-end gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+                <div className="flex">
+                  <p className="w-64">shredded</p>
+                  <p>diced</p>
+                </div>
               </h2>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Units per palette</p>
-                <p className="w-40">60</p>
-                <p>60</p>
+                <div className="flex">
+                  <p className="w-60">60</p>
+                  <p>60</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Units per layer</p>
-                <p className="w-40">6</p>
-                <p>6</p>
+                <div className="flex">
+                  <p className="w-60">6</p>
+                  <p>6</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Layers</p>
-                <p className="w-40">10</p>
-                <p>10</p>
+                <div className="flex">
+                  <p className="w-60">10</p>
+                  <p>10</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Palette net</p>
-                <p className="w-40">720 kg</p>
-                <p>720 kg</p>
+                <div className="flex">
+                  <p className="w-60">720 kg</p>
+                  <p>720 kg</p>
+                </div>
               </div>
-              <div className="flex border-b border-gray-300  pb-4 mb-4">
+              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
                 <p className="text-blue w-[164px]">Size (LxWxH), mm</p>
-                <p className="w-40">1200x800x2350</p>
-                <p>1200x800x2350</p>
+                <div className="flex">
+                  <p className="w-60">1200x800x2350</p>
+                  <p>1200x800x2350</p>
+                </div>
               </div>
             </div>
             <div className="mb-14">
