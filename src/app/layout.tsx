@@ -3,6 +3,7 @@ import { Ubuntu } from "next/font/google";
 import type { Metadata } from "next";
 import Header from "./components/layout/Header";
 import ProductSlide3 from "./components/ProductSlide3";
+import Footer from "./components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "AB Pieno Žvaigždės",
@@ -24,7 +25,7 @@ export default function RootLayout({
       <body className={ubuntu.className}>
         <Header />
         <main>{children}</main>
-        <footer></footer>
+        <Footer />
       </body>
     </html>
   );
