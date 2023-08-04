@@ -30,12 +30,12 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
               style={{ objectFit: "contain" }}
             />
           </div>
-          <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
-            <h1 className="text-6xl font-bold mb-10">
+          <div className="md:w-1/2 text-sm  pl-16 pr-28 py-5 lg:py-16">
+            <h1 className="text-6xl text-blue font-bold mb-10">
               Svalya Skimmed Milk Powder
             </h1>
             <div>
-              <h2 className="text-[18px] font-bold mb-6">LABELING</h2>
+              <h2 className="p_header">Labeling</h2>
               <p className="text-grey">Skimmed milk powder ADPI Extra Grade.</p>
               <p className="text-grey">Ingredients: skimmed milk</p>
               <p className="text-grey mb-14">
@@ -46,9 +46,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div>
-              <h2 className="text-[18px] font-bold text-blue mb-6">
-                SHELF LIFE AND STORAGE CONDITIONS
-              </h2>
+              <h2 className="p_header">Shelf life and storage conditions</h2>
               <p className="text-grey mb-14">
                 Temperature ≤ 25 ⁰C, the relative humidity ≤ 85%, Shelf life no
                 longer than 24 months from the date of manufacturing.
@@ -56,9 +54,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div>
-              <h2 className="text-[18px] font-bold text-blue mb-6">
-                Logistic information
-              </h2>
+              <h2 className="p_header">Logistic information</h2>
               <div className="flex">
                 <p className="font-bold text-grey mb-2">
                   Primary packaging:&nbsp;

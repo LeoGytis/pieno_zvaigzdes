@@ -49,7 +49,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               />
             </div>
             <div className="text-grey mb-14">
-              <h2 className="text-[18px] font-bold text-blue mb-6">LABELING</h2>
+              <h2 className="p_header">Labeling</h2>
               <p>Cheese “Mozzarella” 40% fat in dry matter.</p>
               <p>
                 Ingredients: pasteurized milk, salt, starter cultures, microbial
@@ -62,9 +62,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               </p>
             </div>
             <div className="text-grey mb-14">
-              <h2 className="text-[18px] font-bold text-blue mb-6">
-                SHELF LIFE AND STORAGE CONDITIONS
-              </h2>
+              <h2 className="p_header">Shelf life and storage conditions</h2>
               <p>
                 Temperature (0... + 4) °C No longer than 90 days from production
                 date.
@@ -75,9 +73,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               </p>
             </div>
             <div className="text-grey leading-7 mb-14">
-              <h2 className="text-[18px] font-bold text-blue mb-6">
-                Logistic information
-              </h2>
+              <h2 className="p_header">Logistic information</h2>
               <div>
                 <strong>Primary packaging:</strong>
                 <p className="pl-1">

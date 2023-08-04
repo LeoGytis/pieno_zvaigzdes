@@ -38,3 +38,17 @@ body {
 .animate-product-slide {
   animation: productSlide 0.5s ease;
 }
+
+.product_title {
+  font-size: 3.75rem; 
+  font-weight: 700; 
+  color: #113b85; 
+  margin-bottom: 2.5rem;
+}
+
+.p_header {
+  font-size: 18px;
+  font-weight: 700;
+  color: #113b85;
+  margin-bottom: 1.5rem;
+}
