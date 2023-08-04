@@ -164,47 +164,68 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
                 Palette details
               </h2>
-              <h2 className="flex justify-end gap-24 font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
-                <div className="flex">
-                  <p className="w-64">shredded</p>
-                  <p>diced</p>
+              {/* ==================================== */}
+
+              <div className="flex">
+                <div className="text-blue w-1/3">
+                  <p className="border-b border-gray-300 pb-4 mb-4">.</p>
+                  <p className="border-b border-gray-300 pb-4 mb-4">
+                    Units per palette
+                  </p>
+                  <p className="border-b border-gray-300 pb-4 mb-4">
+                    Units per layer
+                  </p>
+                  <p className="border-b border-gray-300 pb-4 mb-4">Layers</p>
+                  <p className="border-b border-gray-300 pb-4 mb-4">
+                    Palette net
+                  </p>
+                  <p className="border-b border-gray-300 pb-4 mb-4">
+                    Size (LxWxH), mm
+                  </p>
                 </div>
-              </h2>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Units per palette</p>
-                <div className="flex">
-                  <p className="w-60">60</p>
-                  <p>60</p>
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    diced
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    60
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    6
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    10
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    720 kg
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    1200x800x2350
+                  </div>
+                </div>
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    diced
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    60
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    6
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    10
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    720 kg
+                  </div>
+                  <div className="text-end border-b border-gray-300 pb-4 mb-4 w-full">
+                    1200x800x2350
+                  </div>
                 </div>
               </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Units per layer</p>
-                <div className="flex">
-                  <p className="w-60">6</p>
-                  <p>6</p>
-                </div>
-              </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Layers</p>
-                <div className="flex">
-                  <p className="w-60">10</p>
-                  <p>10</p>
-                </div>
-              </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Palette net</p>
-                <div className="flex">
-                  <p className="w-60">720 kg</p>
-                  <p>720 kg</p>
-                </div>
-              </div>
-              <div className="flex justify-between border-b border-gray-300  pb-4 mb-4">
-                <p className="text-blue w-[164px]">Size (LxWxH), mm</p>
-                <div className="flex">
-                  <p className="w-60">1200x800x2350</p>
-                  <p>1200x800x2350</p>
-                </div>
-              </div>
+
+              {/* ==================================== */}
             </div>
             <div className="mb-14">
               <Image
