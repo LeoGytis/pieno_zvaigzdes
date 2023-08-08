@@ -3,19 +3,20 @@ import Image from "next/image";
 import ProductSlideContainer, {
   ProductSlideProps,
 } from "./ProductSlideContainer";
+import exampleImage from "../../../public/images/mozzarella_shredded/mozzarella.png";
 
 const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
   return (
-    <ProductSlideContainer onClose={onClose}>
-      <div className="flex justify-center xl:w-1/2 h-1/2 xl:h-full p-4 xl:p-20">
+    <ProductSlideContainer onClose={onClose} productImg={exampleImage}>
+      {/* <div className="flex justify-center xl:w-1/2 h-1/2 xl:h-full p-4 xl:p-20">
         <Image
-          src="/images/mozzarella_shredded/mozzarella.png"
+          src={exampleImage}
           alt="Svalya Mozzarella"
           width={500}
           height={500}
           style={{ objectFit: "contain" }}
         />
-      </div>
+      </div> */}
       <div className="xl:w-1/2 text-sm text-blue pl-16 pr-28 py-5 xl:py-16">
         <h1 className="text-6xl font-bold mb-10">Svalya Mozzarella 40%</h1>
         <div className="flex max-h-20 gap-6 mb-10">
