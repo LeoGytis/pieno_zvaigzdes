@@ -3,11 +3,12 @@ import Image from "next/image";
 import ProductSlideContainer, {
   ProductSlideProps,
 } from "./ProductSlideContainer";
+import productImage from "../../../public/images/mozzarella_pizza/mozzarella.png";
 
 const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
   return (
-    <ProductSlideContainer onClose={onClose}>
-      <div className="flex justify-center max-h-96 md:max-h-none md:w-1/2 p-10 md:p-20 lg:p-40">
+    <ProductSlideContainer onClose={onClose} productImage={productImage}>
+      {/* <div className="flex justify-center max-h-96 md:max-h-none md:w-1/2 p-10 md:p-20 lg:p-40">
         <Image
           src="/images/mozzarella_pizza/mozzarella.png"
           alt="Svalya Pizza Mozzarella"
@@ -15,9 +16,9 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
           height={500}
           style={{ objectFit: "contain" }}
         />
-      </div>
-      <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
-        <h1 className="text-6xl font-bold mb-10">
+      </div> */}
+      <div className="xl:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16 ">
+        <h1 className="text-6xl font-bold mb-10 border border-orange-500">
           Svalya Pizza Mozzarella 40 %
         </h1>
         <div className="flex max-h-20 gap-6 mb-10">

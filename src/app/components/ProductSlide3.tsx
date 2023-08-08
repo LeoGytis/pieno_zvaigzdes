@@ -3,11 +3,11 @@ import Image from "next/image";
 import ProductSlideContainer, {
   ProductSlideProps,
 } from "./ProductSlideContainer";
-import exampleImage from "../../../public/images/mozzarella_shredded/mozzarella.png";
+import productImage from "../../../public/images/mozzarella_shredded/mozzarella.png";
 
 const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
   return (
-    <ProductSlideContainer onClose={onClose} productImg={exampleImage}>
+    <ProductSlideContainer onClose={onClose} productImage={productImage}>
       {/* <div className="flex justify-center xl:w-1/2 h-1/2 xl:h-full p-4 xl:p-20">
         <Image
           src={exampleImage}

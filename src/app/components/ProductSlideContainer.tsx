@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { ReactNode } from "react";
-import { StaticImageData } from "next/image";
 
 export interface ProductSlideProps {
   onClose: () => void;
@@ -9,13 +8,13 @@ export interface ProductSlideProps {
 interface ProductSlideContainerProps {
   onClose: () => void;
   children: ReactNode;
-  productImg?: any;
+  productImage?: any;
 }
 
 const ProductSlideContainer = ({
   onClose,
   children,
-  productImg,
+  productImage,
 }: ProductSlideContainerProps) => {
   return (
     <div
@@ -38,7 +37,7 @@ const ProductSlideContainer = ({
         <div className="flex flex-col xl:flex-row h-full">
           <div className="flex justify-center xl:w-1/2 h-1/2 xl:h-full p-4 xl:p-20">
             <Image
-              src={productImg}
+              src={productImage}
               alt="product_image"
               width={500}
               height={500}
