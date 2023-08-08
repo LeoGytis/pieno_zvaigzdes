@@ -122,7 +122,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
                 height={120}
               />
             </div>
-            {/* ======================================================== */}
+            {/*  ===================== Palette details ===================== */}
 
             <div className="pb-14">
               <h2 className="p_header table_row !text-start !text-blue">

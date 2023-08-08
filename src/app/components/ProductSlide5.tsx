@@ -128,7 +128,7 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
               />
             </div>
 
-            {/* ======================================================== */}
+            {/*  ===================== Palette details ===================== */}
 
             <div className="pb-14">
               <h2 className="p_header table_row !text-start !text-blue">

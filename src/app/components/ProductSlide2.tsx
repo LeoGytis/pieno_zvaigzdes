@@ -30,7 +30,7 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
           <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
             <h1 className="text-6xl font-bold mb-10">Sweet Whey Powder</h1>
             <div>
-              <h2 className="text-[18px] font-bold mb-6">Labeling</h2>
+              <h2 className="p_header">Labeling</h2>
               <p className="text-grey">Sweet whey powder</p>
               <p className="text-grey">Ingredients: whey</p>
               <p className="text-grey mb-14">
@@ -78,7 +78,7 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
                 height={132}
               />
             </div>
-            {/* ======================================================== */}
+            {/*  ===================== Palette details ===================== */}
 
             <div className="pb-14">
               <h2 className="p_header table_row !w-2/3 !text-start !text-blue">

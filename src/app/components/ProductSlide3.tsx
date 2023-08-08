@@ -83,7 +83,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <p className="mb-10">fraction cuts: 3x3x10 mm, 3x3x30 mm</p>
             </div>
             <div>
-              <h2 className="text-[18px] font-bold mb-6">Labeling</h2>
+              <h2 className="p_header">Labeling</h2>
               <p className="text-grey">
                 Diced/ Shredded frozen Cheese „Mozzarella“ 40% fat in dry
                 matter.
@@ -160,7 +160,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 height={120}
               />
             </div>
-            {/* ======================================================== */}
+            {/*  ===================== Palette details ===================== */}
 
             <div className="pb-14">
               <h2 className="p_header table_row !text-start !text-blue">
@@ -252,7 +252,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 height={120}
               />
             </div>
-            {/* ======================================================== */}
+            {/*  ===================== Palette details ===================== */}
 
             <div className="pb-14">
               <h2 className="p_header table_row !text-start !text-blue">
