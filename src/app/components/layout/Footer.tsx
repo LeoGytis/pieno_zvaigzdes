@@ -1,23 +1,32 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="flex flex-col items-center pt-6 md:pt-16 pb-6 border border-orange-600">
+      <div className="flex flex-col items-center pt-6 md:pt-16 pb-6">
         <div className="flex flex-col-reverse md:flex-row gap-2 md:gap-24">
           <div className="p-10">
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Lietuva&nbsp;</p>
-              <p className="mb-2">pienozvaigzdes.lt</p>
+              <a className="mb-2" href="https://pienozvaigzdes.lt/lt/">
+                pienozvaigzdes.lt
+              </a>
             </div>
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Global&nbsp;</p>
-              <p className="mb-2">pienozvaigzdes.com</p>
+              <a className="mb-2" href="https://pienozvaigzdes.lt/com/">
+                pienozvaigzdes.com
+              </a>
             </div>
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Estija&nbsp;</p>
-              <p className="mb-2">aasapiim.eu</p>
+              <a className="mb-2" href="https://pienozvaigzdes.lt/ee/">
+                aasapiim.eu
+              </a>
             </div>
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Latvija&nbsp;</p>
+              <a className="mb-2" href="https://pienozvaigzdes.lt/lv/">
+                annele.lv
+              </a>
               <p className="mb-2">annele.lv</p>
             </div>
           </div>
@@ -26,7 +35,9 @@ const Footer = () => {
               SUSIEKITE
             </h2>
             <div>
-              <p className="mb-2">info@pienozvaigzdes.lt</p>
+              <a className="mb-2" href="mailto: info@pienozvaigzdes.lt">
+                info@pienozvaigzdes.lt
+              </a>
               <p className="mb-2">8 5 2461414</p>
               <p className="mb-2">Nemokama kokybės linija</p>
               <p className="mb-2">8 800 55224</p>
@@ -34,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-between border-t border-gray-300 mt-2">
-          <p className="text-center text-xs sm:text-base text-grey pt-2 sm:pt-4">
+          <p className="text-center text-xs sm:text-base text-grey px-2 pt-2 sm:pt-4">
             AB Pieno žvaigždės © 2023, Visos teisės saugomos, privatumo
             politika, pranešėjų apsauga
           </p>
