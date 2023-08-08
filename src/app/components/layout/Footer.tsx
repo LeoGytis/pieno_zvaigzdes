@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="flex flex-col items-center h-60 lg:h-96 p-16">
-        <div className="flex gap-24">
+      <div className="flex flex-col items-center pt-6 md:pt-16 pb-6 border border-orange-600">
+        <div className="flex flex-col-reverse md:flex-row gap-2 md:gap-24">
           <div className="p-10">
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Lietuva&nbsp;</p>
@@ -33,9 +33,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between border-t border-gray-300 pb-4 mt-2">
-          <p className="text-grey pt-4">
-            AB Pieno žvaigždės c 2023, Visos teisės saugomos, privatumo
+        <div className="flex justify-between border-t border-gray-300 mt-2">
+          <p className="text-center text-xs sm:text-base text-grey pt-2 sm:pt-4">
+            AB Pieno žvaigždės © 2023, Visos teisės saugomos, privatumo
             politika, pranešėjų apsauga
           </p>
         </div>
