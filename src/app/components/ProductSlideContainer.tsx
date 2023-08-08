@@ -19,7 +19,7 @@ const ProductSlideContainer = ({
       onClick={onClose}
     >
       <div
-        className="bg-white md:w-11/12 h-full overflow-auto transform transition-transform duration-1000 animate-product-slide"
+        className="bg-white xl:w-11/12 h-full overflow-auto transform transition-transform duration-1000 animate-product-slide"
         onClick={(event) => event.stopPropagation()}
       >
         <div className="flex justify-end pt-2 pr-4">
@@ -30,7 +30,7 @@ const ProductSlideContainer = ({
             &#10005;
           </button>
         </div>
-        <div className="flex flex-col md:flex-row h-full">{children}</div>
+        <div className="flex flex-col xl:flex-row h-full">{children}</div>
       </div>
     </div>
   );

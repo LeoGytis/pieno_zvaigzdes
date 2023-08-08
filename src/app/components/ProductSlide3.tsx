@@ -7,7 +7,7 @@ import ProductSlideContainer, {
 const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
   return (
     <ProductSlideContainer onClose={onClose}>
-      <div className="flex justify-center max-h-96 md:max-h-none md:w-1/2 p-10 md:p-20 lg:p-40">
+      <div className="flex justify-center xl:w-1/2 h-1/2 xl:h-full p-4 xl:p-20">
         <Image
           src="/images/mozzarella_shredded/mozzarella.png"
           alt="Svalya Mozzarella"
@@ -16,7 +16,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
           style={{ objectFit: "contain" }}
         />
       </div>
-      <div className="md:w-1/2 text-sm text-blue pl-16 pr-28 py-5 lg:py-16">
+      <div className="xl:w-1/2 text-sm text-blue pl-16 pr-28 py-5 xl:py-16">
         <h1 className="text-6xl font-bold mb-10">Svalya Mozzarella 40%</h1>
         <div className="flex max-h-20 gap-6 mb-10">
           <div>
