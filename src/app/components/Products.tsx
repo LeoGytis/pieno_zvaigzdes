@@ -27,7 +27,7 @@ const Products = () => {
 
   return (
     <div className="w-full md:max-h-64 flex flex-col md:flex-row justify-between bg-white p-7 pt-12 pb-14">
-      <div className="flex md:w-1/5 flex-col gap-4 justify-center items-center md:items-start pl-8">
+      <div className="flex md:w-1/5 flex-col gap-4 justify-center items-center md:items-start md:pl-8 pb-10 md:pb-0">
         <h1 className="text-2xl text-[#616161] font-medium">Our products</h1>
         <h3 className="italic text-[#1B3C80] underline underline-offset-2">
           Assortiment
