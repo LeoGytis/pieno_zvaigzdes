@@ -161,7 +161,11 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
                   <div className="table_row">12</div>
                   <div className="table_row">720 kg</div>
                   <div className="table_row">1200.800</div>
-                  <div className="table_row">Wood, EUR, one-way pallet</div>
+                  {/* <div className="table_row !whitespace-pre !text-right">
+                    Wood, EUR, one-way pallet
+                  </div> */}
+
+                  <div className="table_row">&nbsp;</div>
                 </div>
                 <div className="flex flex-col justify-end items-end w-1/3">
                   <div className="table_row p_header !text-blue">
@@ -172,7 +176,10 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
                   <div className="table_row">17</div>
                   <div className="table_row">1000 kg</div>
                   <div className="table_row">1200.800</div>
-                  <div className="table_row">Wood, EUR, one-way pallet</div>
+                  <div className="table_row !text-start">
+                    Wood, EUR, one-way pallet
+                  </div>
+                  {/* <div className="table_row">&nbsp;</div> */}
                 </div>
               </div>
             </div>

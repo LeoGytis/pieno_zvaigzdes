@@ -78,32 +78,41 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
                 height={132}
               />
             </div>
+            {/* ======================================================== */}
 
             <div className="pb-14">
-              <h2 className="text-[18px] font-bold text-blue  border-b border-gray-300 pb-4 mb-4">
+              <h2 className="p_header table_row !w-2/3 !text-start !text-blue">
                 Palette details
               </h2>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Units per palette</p>
-                <p className="text-grey">30</p>
-              </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Units per layer</p>
-                <p className="text-grey">3</p>
-              </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Layers</p>
-                <p className="text-grey">10</p>
-              </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Palette net</p>
-                <p className="text-grey">750 kg</p>
-              </div>
-              <div className="flex justify-between border-b border-gray-300 text-grey pb-4 mb-4">
-                <p className="text-blue">Size (LxWxH), mm</p>
-                <p className="text-grey">1200x800x1200</p>
+              <div className="flex">
+                <div className="!text-blue w-1/3">
+                  <div className="table_row !text-start !text-blue">
+                    Units per palette
+                  </div>
+                  <div className="table_row !text-start !text-blue">
+                    Units per layer
+                  </div>
+                  <div className="table_row !text-start !text-blue">Layers</div>
+                  <div className="table_row !text-start !text-blue">
+                    Palette net
+                  </div>
+                  <div className="table_row !text-start !text-blue">
+                    Size (LxWxH), mm
+                  </div>
+                </div>
+
+                <div className="flex flex-col justify-end items-end w-1/3">
+                  <div className="table_row">30</div>
+                  <div className="table_row">3</div>
+                  <div className="table_row">10</div>
+                  <div className="table_row">720 kg</div>
+                  <div className="table_row">1200x800x1200</div>
+                </div>
               </div>
             </div>
+
+            {/* ======================================================== */}
+
             <div className="mb-14">
               <Image
                 src="/images/milk_powder/palette_size.png"
