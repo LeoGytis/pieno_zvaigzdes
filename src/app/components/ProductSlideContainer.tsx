@@ -44,7 +44,7 @@ const ProductSlideContainer = ({
               style={{ objectFit: "contain" }}
             />
           </div>
-          <div className="xl:w-1/2 text-sm text-blue pl-16 pr-28 py-5 xl:py-16">
+          <div className="xl:w-1/2 px-4 md:pl-16 md:pr-28 py-5 xl:py-16">
             {children}
             <div className="flex flex-col text-black gap-7 pb-20">
               <h2 className="text-[18px] font-bold text-blue">Contact Us</h2>

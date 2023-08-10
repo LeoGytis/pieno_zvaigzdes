@@ -40,11 +40,19 @@ body {
 }
 
 .product_title {
-  font-size: 3.75rem; 
-  line-height: 1;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  
   font-weight: 700; 
   color: #113b85; 
   margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .product_title {
+    font-size: 3.75rem; 
+    line-height: 1;
+  }
 }
 
 .p_header {

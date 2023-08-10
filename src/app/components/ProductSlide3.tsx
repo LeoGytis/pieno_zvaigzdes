@@ -8,15 +8,13 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
   return (
     <ProductSlideContainer onClose={onClose} productImage={productImage}>
       <h1 className="product_title">Svalya Mozzarella 40%</h1>
-      <div className="flex max-h-20 gap-6 mb-10">
-        <div>
-          <Image
-            src="/images/tokens/token_01.png"
-            alt="token"
-            width={79}
-            height={77}
-          />
-        </div>
+      <div className="flex w-12 md:w-full max-h-12 md:max-h-20 gap-6 mb-10">
+        <Image
+          src="/images/tokens/token_01.png"
+          alt="token"
+          width={79}
+          height={77}
+        />
         <Image
           src="/images/tokens/token_02.png"
           alt="token"
