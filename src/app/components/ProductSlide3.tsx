@@ -244,39 +244,61 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
       {/*  ===================== Palette details ===================== */}
 
       <div className="pb-14">
-        <h2 className="p_header table_row !text-start !text-blue">
-          Palette details
-        </h2>
-        <div className="flex">
-          <div className="!text-blue w-1/3">
-            <div className="table_row !text-start">&nbsp;</div>
-            <div className="table_row !text-start !text-blue">
-              Units per palette
+        <h2 className="p_header">Palette details</h2>
+        <div className="flex flex-col sm:flex-row">
+          <div className="flex w-full sm:w-2/3">
+            <div className="!text-blue w-1/2 sm:w-1/4">
+              <div className="table_row p_header">&nbsp;</div>
+              <div className="table_row !text-start !text-blue">
+                Units per palette
+              </div>
+              <div className="table_row !text-start !text-blue">
+                Units per layer
+              </div>
+              <div className="table_row !text-start !text-blue">Layers</div>
+              <div className="table_row !text-start !text-blue">
+                Palette net
+              </div>
+              <div className="table_row !text-start !text-blue">
+                Size (LxWxH), mm
+              </div>
             </div>
-            <div className="table_row !text-start !text-blue">
-              Units per layer
-            </div>
-            <div className="table_row !text-start !text-blue">Layers</div>
-            <div className="table_row !text-start !text-blue">Palette net</div>
-            <div className="table_row !text-start !text-blue">
-              Size (LxWxH), mm
+
+            <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
+              <div className="table_row p_header !text-blue">shredded</div>
+              <div className="table_row">60</div>
+              <div className="table_row">6</div>
+              <div className="table_row">10</div>
+              <div className="table_row">720 kg</div>
+              <div className="table_row">1200x800x2350</div>
             </div>
           </div>
-          <div className="flex flex-col justify-end items-end w-1/3">
-            <div className="table_row p_header !text-blue">shredded</div>
-            <div className="table_row">60</div>
-            <div className="table_row">6</div>
-            <div className="table_row">10</div>
-            <div className="table_row">720 kg</div>
-            <div className="table_row">1200x800x2350</div>
-          </div>
-          <div className="flex flex-col justify-end items-end w-1/3">
-            <div className="table_row p_header !text-blue">diced</div>
-            <div className="table_row">60</div>
-            <div className="table_row">6</div>
-            <div className="table_row">10</div>
-            <div className="table_row">720 kg</div>
-            <div className="table_row">1200x800x2350</div>
+          {/* =================== Split it two tables =================== */}
+          <div className="flex w-full sm:w-1/3">
+            <div className="sm:hidden !text-blue w-1/2 pt-10">
+              <div className="table_row p_header">&nbsp;</div>
+              <div className="table_row !text-start !text-blue">
+                Units per palette
+              </div>
+              <div className="table_row !text-start !text-blue">
+                Units per layer
+              </div>
+              <div className="table_row !text-start !text-blue">Layers</div>
+              <div className="table_row !text-start !text-blue">
+                Palette net
+              </div>
+              <div className="table_row !text-start !text-blue">
+                Size (LxWxH), mm
+              </div>
+            </div>
+            <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
+              <div className="table_row p_header !text-blue">diced</div>
+              <div className="table_row">60</div>
+              <div className="table_row">6</div>
+              <div className="table_row">10</div>
+              <div className="table_row">720 kg</div>
+              <div className="table_row">1200x800x2350</div>
+            </div>
           </div>
         </div>
       </div>
