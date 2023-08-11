@@ -12,22 +12,30 @@ const Footer = () => {
             </div>
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Global&nbsp;</p>
-              <a className="mb-2" href="https://pienozvaigzdes.lt/com/">
+              <a
+                className="mb-2 text-black"
+                href="https://pienozvaigzdes.lt/com/"
+              >
                 pienozvaigzdes.com
               </a>
             </div>
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Estija&nbsp;</p>
-              <a className="mb-2" href="https://pienozvaigzdes.lt/ee/">
+              <a
+                className="mb-2 text-black"
+                href="https://pienozvaigzdes.lt/ee/"
+              >
                 aasapiim.eu
               </a>
             </div>
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Latvija&nbsp;</p>
-              <a className="mb-2" href="https://pienozvaigzdes.lt/lv/">
+              <a
+                className="mb-2 text-black"
+                href="https://pienozvaigzdes.lt/lv/"
+              >
                 annele.lv
               </a>
-              <p className="mb-2">annele.lv</p>
             </div>
           </div>
           <div className="flex flex-col items-center text-center px-10">
