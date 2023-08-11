@@ -6,7 +6,10 @@ const Footer = () => {
           <div className="p-10">
             <div className="flex justify-center items-center text-center mb-2">
               <p className="text-grey mb-2">Lietuva&nbsp;</p>
-              <a className="mb-2" href="https://pienozvaigzdes.lt/lt/">
+              <a
+                className="mb-2 text-black"
+                href="https://pienozvaigzdes.lt/lt/"
+              >
                 pienozvaigzdes.lt
               </a>
             </div>
@@ -42,7 +45,7 @@ const Footer = () => {
             <h2 className="flex justify-center text-[18px] font-bold text-blue mb-4">
               SUSIEKITE
             </h2>
-            <div>
+            <div className="text-black">
               <a className="mb-2" href="mailto: info@pienozvaigzdes.lt">
                 info@pienozvaigzdes.lt
               </a>
