@@ -71,3 +71,7 @@ body {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+
+.products_shadow {
+  box-shadow: 0px 5px 5px 0px rgba(95, 109, 126, 0.09);
+}
