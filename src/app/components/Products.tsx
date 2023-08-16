@@ -34,7 +34,7 @@ const Products = () => {
         </h3>
       </div>
       <div className="flex gap-6 md:w-4/5 md:h-4/5 flex-col md:flex-row justify-around items-center content-center">
-        {/* --- First Product --- */}
+        {/* ====================== Product No.1 ====================== */}
         <div
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(0)}
@@ -51,7 +51,8 @@ const Products = () => {
             Svalaya Skimmed Milk Powder
           </div>
         </div>
-        {/* --- Second Product --- */}
+
+        {/* ====================== Product No.2 ====================== */}
         <div
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(1)}
@@ -68,7 +69,8 @@ const Products = () => {
             Sweet Whey Powder
           </div>
         </div>
-        {/* --- Third Product --- */}
+
+        {/* ====================== Product No.3 ====================== */}
         <div
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(2)}
@@ -85,7 +87,8 @@ const Products = () => {
             Svalya Mozzarella
           </div>
         </div>
-        {/* --- Forth Product --- */}
+
+        {/* ====================== Product No.4 ====================== */}
         <div
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(3)}
@@ -103,7 +106,8 @@ const Products = () => {
             Svalya Mozzarella
           </div>
         </div>
-        {/* --- Fifth Product --- */}
+
+        {/* ====================== Product No.5 ====================== */}
         <div
           className="flex flex-col items-center align-center hover:cursor-pointer m-4"
           onClick={() => handleProductClick(4)}
