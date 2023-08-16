@@ -1,7 +1,7 @@
 const PrivateLabel = () => {
   return (
-    <div className="h-full bg-white pl-44 py-20">
-      <div className="w-1/2">
+    <div className="h-full bg-white px-10 py-8 md:pl-44 md:py-20">
+      <div className="md:w-1/2">
         <h1 className="text-blue text-2xl">PRIVATE LABEL</h1>
 
         <div className="text-grey my-8">
@@ -16,16 +16,19 @@ const PrivateLabel = () => {
           highest industry standards. Our private label management team takes
           high care on these three points:
         </div>
+
         <div className="text-grey mt-12">
           <b>Product Development:</b> We work closely with you to develop your
           product and its recipe including the selection of raw materials,
           packaging, labeling, and any other requirements you may have.
         </div>
+
         <div className="text-grey my-8">
           <b>Production:</b> Our state-of-the-art facilities and equipment
           ensure that your product is manufactured to the highest quality
           standards, with rigorous quality control measures in place.
         </div>
+
         <div className="text-grey my-8">
           <b>Packaging and Labeling:</b> Our team of experts will work with you
           to design and produce custom packaging and labels that meet your
