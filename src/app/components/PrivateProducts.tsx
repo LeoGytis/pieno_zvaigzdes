@@ -12,7 +12,7 @@ const PrivateProducts = () => {
       <div className="flex gap-6 md:w-4/5 md:h-4/5 flex-col md:flex-row justify-around items-center content-center">
         {/* ====================== Product No.1 ====================== */}
         <div className="flex flex-col items-center align-center hover:cursor-pointer m-4">
-          <div className="flex h-32 w-20 md:h-20 md:w-12 lg:h-32 lg:w-20 pb-4">
+          <div className="flex h-20 w-32 md:h-20 md:w-28 lg:h-20 lg:w-36 pb-4">
             <Image
               src="/images/private_products/mozzarella.png"
               alt="Mozzarella"
