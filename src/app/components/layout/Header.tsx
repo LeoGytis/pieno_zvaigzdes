@@ -5,7 +5,6 @@ const Header: any = () => {
   return (
     <header>
       <NavBar />
-      <HeaderBanner title="Business solutions & ingredients" />
     </header>
   );
 };

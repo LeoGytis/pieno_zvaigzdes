@@ -1,12 +1,13 @@
 import Image from "next/image";
-import HeaderBanner from "./HeaderBanner";
+import PrivateLabel from "../components/PrivateLabel";
+import HeaderBanner from "../components/HeaderBanner";
 
 const PrivateProducts = () => {
   return (
     <>
-      <HeaderBanner title="Business solutions & ingredients" />
+      <HeaderBanner title="Private label" />
 
-      <div className="w-full md:max-h-64 flex flex-col md:flex-row justify-between bg-white p-7 pt-12 pb-14 border border-y-zinc-400 products_shadow">
+      <div className="w-full md:max-h-64 flex flex-col md:flex-row justify-between bg-white p-7 pt-12 pb-14 border border-y-zinc-200">
         <div className="flex md:w-1/5 flex-col gap-4 justify-center items-center md:items-start md:pl-8 pb-10 md:pb-0 ">
           <h1 className="text-2xl text-[#616161] font-medium">Our products</h1>
           <h3 className="italic text-[#1B3C80] underline underline-offset-2">
@@ -86,6 +87,7 @@ const PrivateProducts = () => {
           </div>
         </div>
       </div>
+      <PrivateLabel />
     </>
   );
 };
