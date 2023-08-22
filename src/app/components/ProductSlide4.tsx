@@ -7,7 +7,7 @@ import productImage from "../../../public/images/mozzarella_strechy/mozzarella.p
 const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
   return (
     <ProductSlideContainer onClose={onClose} productImage={productImage}>
-      <h1 className="product_title">Svalya Mozzarella 40%</h1>
+      <h1 className="product_title">Svalya Mozzarella 40% (or 45%)</h1>
       <div className="flex max-h-20 gap-6 mb-10">
         <Image
           src="/images/tokens/token_03.png"
@@ -126,12 +126,14 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
-              <div className="table_row p_header !text-blue">shredded</div>
+              <div className="table_row p_header !text-blue">
+                60 units per palette
+              </div>
               <div className="table_row">60</div>
               <div className="table_row">5</div>
               <div className="table_row">12</div>
-              <div className="table_row">720 kg</div>
-              <div className="table_row">1200.800</div>
+              <div className="table_row">720 kg*</div>
+              <div className="table_row">1200x800</div>
               <div className="table_row">
                 {" "}
                 Wood, EUR, <br></br>one-way pallet
@@ -160,18 +162,21 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               </div>
             </div>
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
-              <div className="table_row p_header !text-blue">diced</div>
+              <div className="table_row p_header !text-blue">
+                83 units per palette
+              </div>
               <div className="table_row">83</div>
               <div className="table_row">5</div>
               <div className="table_row">17</div>
-              <div className="table_row">1000 kg</div>
-              <div className="table_row">1200.800</div>
+              <div className="table_row">1000 kg*</div>
+              <div className="table_row">1200x800</div>
               <div className="table_row">
                 Wood, EUR,<br></br> one-way pallet
               </div>
             </div>
           </div>
         </div>
+        <p className="text-grey">*Variable weight</p>
       </div>
     </ProductSlideContainer>
   );
