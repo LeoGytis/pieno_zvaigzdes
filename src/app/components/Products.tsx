@@ -53,7 +53,7 @@ const Products = () => {
               />
             </div>
             <div className="text-sm text-center text-slate-600">
-              Svalaya Skimmed Milk Powder
+              Skimmed Milk Powder
             </div>
           </div>
 
