@@ -15,21 +15,10 @@ const PrivateProducts = () => {
           </h3>
         </div>
         <div className="flex gap-6 md:w-4/5 flex-col md:flex-row justify-around items-center content-center px-8">
-          {/* ====================== Product No.1 ====================== */}
-          <div className="flex flex-col  hover:cursor-pointer h-full justify-between">
-            <div className="flex h-20 w-32 md:h-20 md:w-28 lg:h-20 lg:w-36 lg:mt-6">
-              <Image
-                src="/images/private_products/mozzarella.png"
-                alt="Mozzarella"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="text-sm text-center text-slate-600">Mozzarella</div>
-          </div>
+         
 
-          {/* ====================== Product No.2 ====================== */}
-          <div className="flex flex-col hover:cursor-pointer">
+          {/* ====================== Product No.1 ====================== */}
+          <div className="flex flex-col hover:cursor-pointer items-center">
             <div className="flex h-32 w-20 md:h-20 md:w-12 lg:h-32 lg:w-20 pb-4">
               <Image
                 src="/images/private_products/cheese_sticks.png"
@@ -43,22 +32,35 @@ const PrivateProducts = () => {
             </div>
           </div>
 
-          {/* ====================== Product No.3 ====================== */}
-          <div className="flex flex-col hover:cursor-pointer">
-            <div className="flex h-32 w-28 md:h-20 md:w-16 lg:h-32 lg:w-24 pb-4">
+           {/* ====================== Product No.2 ====================== */}
+           <div className="flex flex-col  hover:cursor-pointer h-full justify-between items-center">
+            <div className="flex h-20 w-32 md:h-20 md:w-28 lg:w-36 lg:mt-6">
               <Image
-                src="/images/private_products/yogurt.png"
-                alt="Yogurt"
+                src="/images/private_products/mozzarella.png"
+                alt="Mozzarella"
                 width={500}
                 height={500}
               />
             </div>
-            <div className="text-sm text-center text-slate-600">Yogurt</div>
+            <div className="text-sm text-center text-slate-600">Mozzarella</div>
+          </div>
+
+          {/* ====================== Product No.3 ====================== */}
+          <div className="flex flex-col  hover:cursor-pointer h-full justify-between items-center">
+          <div className="flex h-20 w-32 md:h-12 md:w-24 lg:h-16 lg:w-32 md:mt-4 lg:mt-6">
+              <Image
+                src="/images/private_products/ice_cream.png"
+                alt="ice_cream"
+                width={500}
+                height={500}
+              />
+            </div>
+            <div className="text-sm text-center text-slate-600">Ice cream</div>
           </div>
 
           {/* ====================== Product No.4 ====================== */}
-          <div className="flex flex-col hover:cursor-pointer">
-            <div className="flex h-32 w-28 md:h-20 md:w-20 lg:h-32 lg:w-36 pb-4">
+          <div className="flex flex-col hover:cursor-pointer items-center">
+            <div className="flex h-32 w-28 md:h-20 md:w-20 lg:h-32 lg:w-36 pb-4 item-center content-center">
               <Image
                 src="/images/private_products/milk_drinks.png"
                 alt="Flavored_milk_drinks"
@@ -73,17 +75,17 @@ const PrivateProducts = () => {
           </div>
 
           {/* ====================== Product No.5 ====================== */}
-          <div className="flex flex-col hover:cursor-pointer">
+          <div className="flex flex-col hover:cursor-pointer items-center">
             <div className="flex h-32 w-28 md:h-20 md:w-20 lg:h-32 lg:w-36 pb-4">
               <Image
-                src="/images/private_products/deserts.png"
-                alt="Deserts"
+                src="/images/private_products/coffee_drinks.png"
+                alt="iced_coffee_drinks"
                 width={500}
                 height={500}
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <div className="text-sm text-center text-slate-600">Deserts</div>
+            <div className="text-sm text-center text-slate-600">Iced coffee drinks</div>
           </div>
         </div>
       </div>
