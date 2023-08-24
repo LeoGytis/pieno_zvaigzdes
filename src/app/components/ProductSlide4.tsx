@@ -7,7 +7,9 @@ import productImage from "../../../public/images/mozzarella_strechy/mozzarella.p
 const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
   return (
     <ProductSlideContainer onClose={onClose} productImage={productImage}>
-      <h1 className="product_title">Svalya Mozzarella 40% (or 45%)</h1>
+      <h1 className="product_title">
+        Svalya Mozzarella 40% <p className="text-base">(or 45%)</p>
+      </h1>
       <div className="flex max-h-20 gap-6 mb-10">
         <Image
           src="/images/tokens/token_03.png"
@@ -118,7 +120,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
                 Palette net
               </div>
               <div className="table_row !text-start !text-blue">
-                Size (LxWxH), mm
+                Size (LxW), mm
               </div>
               <div className="table_row !text-start !text-blue">
                 <br></br>Type
@@ -155,7 +157,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
                 Palette net
               </div>
               <div className="table_row !text-start !text-blue">
-                Size (LxWxH), mm
+                Size (LxW), mm
               </div>
               <div className="table_row !text-start !text-blue">
                 <br></br>Type

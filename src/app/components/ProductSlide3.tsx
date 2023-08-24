@@ -119,9 +119,9 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
         </div>
         <div>
           <p>
-            <strong> Dimensions of the box&nbsp;</strong>
+            <strong> Dimensions of the box:&nbsp;</strong>
+            587x257x300 mm (shredded), 587x257x195 mm (diced).
           </p>
-          <p>587x257x300 mm (shredded), 587x257x195 mm (diced).</p>
         </div>
       </div>
       <div className="flex gap-10 mb-14">
@@ -228,9 +228,9 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
         </div>
         <div>
           <p>
-            <strong> Dimensions of the box&nbsp;</strong>
+            <strong> Dimensions of the box:&nbsp;</strong>
+            587x257x195 mm (shredded/ diced).
           </p>
-          <p>587x257x300 mm (shredded), 587x257x195 mm (diced).</p>
         </div>
       </div>
       <div className="flex gap-10 mb-14">
@@ -266,10 +266,10 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
 
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
               <div className="table_row p_header !text-blue">shredded</div>
-              <div className="table_row">42</div>
+              <div className="table_row">60</div>
               <div className="table_row">6</div>
-              <div className="table_row">7</div>
-              <div className="table_row">504 kg</div>
+              <div className="table_row">10</div>
+              <div className="table_row">720 kg</div>
               <div className="table_row">1200x800x2350</div>
             </div>
           </div>
