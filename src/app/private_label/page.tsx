@@ -45,7 +45,7 @@ const PrivateProducts = () => {
 
           {/* ====================== Product No.3 ====================== */}
           <div className="flex flex-col  hover:cursor-pointer h-full justify-between items-center">
-            <div className="flex h-20 w-32 md:h-10 md:w-24 lg:h-12 lg:w-32 md:mt-4 lg:mt-6">
+            <div className="flex h-16 w-32 md:h-10 md:w-24 lg:h-12 lg:w-32 md:mt-4 lg:mt-10">
               <Image
                 src="/images/private_products/ice_cream.png"
                 alt="ice_cream"
