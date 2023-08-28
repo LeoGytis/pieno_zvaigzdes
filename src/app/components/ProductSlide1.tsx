@@ -32,12 +32,12 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
         <div className="flex">
           <p className="font-bold text-grey mb-2">Primary packaging:&nbsp;</p>
           <p className="text-grey mb-2">
-            25 kg – manylayers paper bag with PE liner
+            25 kg – many layers paper bag with PE liner
           </p>
         </div>
         <div className="flex">
           <p className="font-bold text-grey mb-2">Label:&nbsp;</p>
-          <p className="text-grey mb-2">Paper ThermalTOP, 100x60 mm&quot;</p>
+          <p className="text-grey mb-2">Paper ThermalTOP, 100x60 mm</p>
         </div>
 
         <div className="flex">
@@ -79,7 +79,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             <div className="table_row">30</div>
             <div className="table_row">3</div>
             <div className="table_row">10</div>
-            <div className="table_row">720 kg</div>
+            <div className="table_row">750 kg</div>
             <div className="table_row">1200x800x1200</div>
           </div>
         </div>

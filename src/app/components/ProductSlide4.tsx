@@ -8,7 +8,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
   return (
     <ProductSlideContainer onClose={onClose} productImage={productImage}>
       <h1 className="product_title">
-        Svalya Mozzarella 40% <p className="text-base">(or 45%)</p>
+        Svalya Mozzarella 40% <p className="text-xl">(or 45%)</p>
       </h1>
       <div className="flex max-h-20 gap-6 mb-10">
         <Image
@@ -39,7 +39,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
         <p className="text-grey mb-6">
           Nutrition 100 g: energy 1221 kJ / 294 kcal; fat 21,5 g, of which:
           saturates 14,0 g; carbohydrate 0,5 g, of which: sugars 0,5 g; protein
-          24,5 g, salt 0,8.
+          24,5 g, salt 0,8g.
         </p>
       </div>
       <div className="text-grey mb-14">
@@ -80,7 +80,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
 
       <div className="text-grey leading-7 mb-14">
         <div>
-          <strong>Secondary ( group) packaging:</strong>
+          <strong>Secondary (group) packaging:</strong>
           <p className="pl-1">1. Corrugated carton box size, cm:</p>
           <p>45,0x32,0x10,5 / 4 Units inside</p>
         </div>
@@ -104,11 +104,12 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
       {/*  ===================== Palette details ===================== */}
 
       <div className="pb-14">
-        <h2 className="p_header">Palette details</h2>
+        <h2 className="table_row p_header !text-start !text-blue">
+          Palette details
+        </h2>
         <div className="flex flex-col sm:flex-row">
           <div className="flex w-full sm:w-2/3">
             <div className="!text-blue w-1/2 sm:w-1/4">
-              <div className="table_row p_header">&nbsp;</div>
               <div className="table_row !text-start !text-blue">
                 Units per palette
               </div>
@@ -128,9 +129,6 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
-              <div className="table_row p_header !text-blue">
-                60 units per palette
-              </div>
               <div className="table_row">60</div>
               <div className="table_row">5</div>
               <div className="table_row">12</div>
@@ -145,7 +143,6 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
           {/* =================== Split it two tables =================== */}
           <div className="flex w-full sm:w-1/3">
             <div className="sm:hidden !text-blue w-1/2 pt-10">
-              <div className="table_row p_header">&nbsp;</div>
               <div className="table_row !text-start !text-blue">
                 Units per palette
               </div>
@@ -164,9 +161,6 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               </div>
             </div>
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
-              <div className="table_row p_header !text-blue">
-                83 units per palette
-              </div>
               <div className="table_row">83</div>
               <div className="table_row">5</div>
               <div className="table_row">17</div>

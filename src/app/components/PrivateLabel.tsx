@@ -5,8 +5,8 @@ const PrivateLabel = () => {
         <h1 className="text-blue text-2xl">PRIVATE LABEL</h1>
 
         <div className="text-grey my-8">
-          We are excited to offer customers customized solutions that meets
-          their specific needs and requirements in the market.
+          We are excited to offer customers customized solutions that meet their
+          specific needs and requirements in the market.
         </div>
 
         <div className="text-grey my-8">
@@ -14,12 +14,12 @@ const PrivateLabel = () => {
           manufacturing services to businesses for more than 20 years. We have a
           proven track record of delivering high-quality products that meet the
           highest industry standards. Our private label management team takes
-          high care on these three points:
+          high care of these three points:
         </div>
 
         <div className="text-grey mt-12">
           <b>Product Development:</b> We work closely with you to develop your
-          product and its recipe including the selection of raw materials,
+          product and its recipe, including the selection of raw materials,
           packaging, labeling, and any other requirements you may have.
         </div>
 
