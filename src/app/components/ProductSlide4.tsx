@@ -8,7 +8,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
   return (
     <ProductSlideContainer onClose={onClose} productImage={productImage}>
       <h1 className="product_title">
-        Svalya Mozzarella 40% <p className="text-xl">(or 45%)</p>
+        Svalya Mozzarella 40% <p className="text-2xl">(or 45%)</p>
       </h1>
       <div className="flex max-h-20 gap-6 mb-10">
         <Image

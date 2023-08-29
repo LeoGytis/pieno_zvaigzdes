@@ -7,7 +7,8 @@ import productImage from "../../../public/images/mozzarella_shredded/mozzarella.
 const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
   return (
     <ProductSlideContainer onClose={onClose} productImage={productImage}>
-      <h1 className="product_title">Svalya Mozzarella 40%</h1>
+      <h1 className="product_title !mb-1">Svalya Mozzarella 40%</h1>
+      <h2 className="text-grey text-xl font-bold mb-10">Shredded/diced</h2>
       <div className="flex w-12 md:w-full max-h-12 md:max-h-20 gap-6 mb-10">
         <Image
           src="/images/tokens/token_01.png"
@@ -70,7 +71,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
           Packaged in a protective atmosphere. Nutrition 100 g: energy 1243
           kJ/299 kcal; fat 21,5 g, of which: saturates 14,0 g; carbohydrate 1,8
           g, of which: sugars 0,5 g, starch 1,3 g; food fibre 0 g, protein 24,5
-          g, salt 0,8 g. * Possibility of production with no anti-caking agent.
+          g, salt 0,8 g.
         </p>
         <p className="text-grey mb-14">
           * Possibility of production with no anti-caking agent.
