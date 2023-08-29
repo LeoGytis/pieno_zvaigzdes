@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center text-center px-10">
             <h2 className="flex justify-center text-[18px] font-bold text-blue mb-4">
-              SUSIEKITE
+              SUSISIEKITE
             </h2>
             <div className="text-black">
               <a className="mb-2" href="mailto: info@pienozvaigzdes.lt">

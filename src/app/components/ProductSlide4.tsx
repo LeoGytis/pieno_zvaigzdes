@@ -104,15 +104,11 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
       {/*  ===================== Palette details ===================== */}
 
       <div className="pb-14">
-        <h2 className="table_row p_header !text-start !text-blue">
-          Palette details
-        </h2>
+        <h2 className="p_header">Palette details</h2>
         <div className="flex flex-col sm:flex-row">
           <div className="flex w-full sm:w-2/3">
             <div className="!text-blue w-1/2 sm:w-1/4">
-              <div className="table_row !text-start !text-blue">
-                Units per palette
-              </div>
+              <div className="table_row p_header">&nbsp;</div>
               <div className="table_row !text-start !text-blue">
                 Units per layer
               </div>
@@ -129,7 +125,9 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
             </div>
 
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
-              <div className="table_row">60</div>
+              <div className="table_row p_header !text-blue">
+                60 units per palette
+              </div>
               <div className="table_row">5</div>
               <div className="table_row">12</div>
               <div className="table_row">720 kg*</div>
@@ -143,6 +141,7 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
           {/* =================== Split it two tables =================== */}
           <div className="flex w-full sm:w-1/3">
             <div className="sm:hidden !text-blue w-1/2 pt-10">
+              <div className="table_row p_header">&nbsp;</div>
               <div className="table_row !text-start !text-blue">
                 Units per palette
               </div>
@@ -161,7 +160,9 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
               </div>
             </div>
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
-              <div className="table_row">83</div>
+              <div className="table_row p_header !text-blue">
+                83 units per palette
+              </div>
               <div className="table_row">5</div>
               <div className="table_row">17</div>
               <div className="table_row">1000 kg*</div>
@@ -177,5 +178,4 @@ const ProductSlide4 = ({ onClose }: ProductSlideProps) => {
     </ProductSlideContainer>
   );
 };
-
 export default ProductSlide4;
