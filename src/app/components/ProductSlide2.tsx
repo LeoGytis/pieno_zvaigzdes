@@ -56,11 +56,11 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
       {/*  ===================== Palette details ===================== */}
 
       <div className="pb-14">
-        <h2 className="p_header table_row !w-2/3 !text-start !text-blue">
+        <h2 className="p_header !w-2/3 !text-start !text-blue">
           Palette details
         </h2>
         <div className="flex">
-          <div className="!text-blue w-1/3">
+          <div className="!text-blue w-full lg:w-1/3">
             <div className="table_row !text-start !text-blue">
               Units per palette
             </div>
@@ -82,15 +82,6 @@ const ProductSlide2 = ({ onClose }: ProductSlideProps) => {
             <div className="table_row">1200x800x1200</div>
           </div>
         </div>
-      </div>
-
-      <div className="mb-14">
-        <Image
-          src="/images/milk_powder/palette_size.png"
-          alt="palette_size"
-          width={156}
-          height={120}
-        />
       </div>
     </ProductSlideContainer>
   );
