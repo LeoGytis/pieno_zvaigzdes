@@ -120,9 +120,6 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row !text-start !text-blue">
                 Size (LxW), mm
               </div>
-              <div className="table_row !text-start !text-blue">
-                <br></br>Type
-              </div>
             </div>
 
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
@@ -133,19 +130,13 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row">12</div>
               <div className="table_row">720 kg*</div>
               <div className="table_row">1200x800</div>
-              <div className="table_row">
-                {" "}
-                Wood, EUR, <br></br>one-way pallet
-              </div>
             </div>
           </div>
           {/* =================== Split it two tables =================== */}
           <div className="flex w-full sm:w-1/3">
             <div className="sm:hidden !text-blue w-1/2 pt-10">
               <div className="table_row p_header">&nbsp;</div>
-              <div className="table_row !text-start !text-blue">
-                Units per palette
-              </div>
+
               <div className="table_row !text-start !text-blue">
                 Units per layer
               </div>
@@ -156,9 +147,6 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row !text-start !text-blue">
                 Size (LxW), mm
               </div>
-              <div className="table_row !text-start !text-blue">
-                <br></br>Type
-              </div>
             </div>
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
               <div className="table_row p_header !text-blue">
@@ -168,9 +156,6 @@ const ProductSlide5 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row">17</div>
               <div className="table_row">1000 kg*</div>
               <div className="table_row">1200x800</div>
-              <div className="table_row">
-                Wood, EUR,<br></br> one-way pallet
-              </div>
             </div>
           </div>
         </div>

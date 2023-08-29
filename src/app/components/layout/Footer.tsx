@@ -49,7 +49,7 @@ const Footer = () => {
               <a className="mb-2" href="mailto: info@pienozvaigzdes.lt">
                 info@pienozvaigzdes.lt
               </a>
-              <p className="mb-2">8 5 2461414</p>
+              <p className="mb-2">+370 5 2461414</p>
               <p className="mb-2">Nemokama kokybės linija</p>
               <p className="mb-2">8 800 55224</p>
             </div>
