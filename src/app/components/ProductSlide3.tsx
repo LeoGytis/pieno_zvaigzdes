@@ -152,7 +152,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 Palette net
               </div>
               <div className="table_row !text-start !text-blue">
-                Size (LxWxH), mm
+                Size (LxW), mm
               </div>
             </div>
 
@@ -162,7 +162,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row">6</div>
               <div className="table_row">7</div>
               <div className="table_row">504 kg</div>
-              <div className="table_row">1200x800x2350</div>
+              <div className="table_row">1200x800</div>
             </div>
           </div>
           {/* =================== Split it two tables =================== */}
@@ -180,7 +180,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 Palette net
               </div>
               <div className="table_row !text-start !text-blue">
-                Size (LxWxH), mm
+                Size (LxW), mm
               </div>
             </div>
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
@@ -189,7 +189,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row">6</div>
               <div className="table_row">10</div>
               <div className="table_row">720 kg</div>
-              <div className="table_row">1200x800x2350</div>
+              <div className="table_row">1200x800</div>
             </div>
           </div>
         </div>
@@ -261,7 +261,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 Palette net
               </div>
               <div className="table_row !text-start !text-blue">
-                Size (LxWxH), mm
+                Size (LxW), mm
               </div>
             </div>
 
@@ -271,7 +271,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row">6</div>
               <div className="table_row">10</div>
               <div className="table_row">720 kg</div>
-              <div className="table_row">1200x800x2350</div>
+              <div className="table_row">1200x800</div>
             </div>
           </div>
           {/* =================== Split it two tables =================== */}
@@ -289,7 +289,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
                 Palette net
               </div>
               <div className="table_row !text-start !text-blue">
-                Size (LxWxH), mm
+                Size (LxW), mm
               </div>
             </div>
             <div className="flex flex-col justify-end items-end w-1/2 sm:w-full">
@@ -298,7 +298,7 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
               <div className="table_row">6</div>
               <div className="table_row">10</div>
               <div className="table_row">720 kg</div>
-              <div className="table_row">1200x800x2350</div>
+              <div className="table_row">1200x800</div>
             </div>
           </div>
         </div>

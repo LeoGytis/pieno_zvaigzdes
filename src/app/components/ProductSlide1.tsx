@@ -71,7 +71,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             <div className="table_row !text-start !text-blue">Layers</div>
             <div className="table_row !text-start !text-blue">Palette net</div>
             <div className="table_row !text-start !text-blue">
-              Size (LxWxH), mm
+              Size (LxW), mm
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const ProductSlide1 = ({ onClose }: ProductSlideProps) => {
             <div className="table_row">3</div>
             <div className="table_row">10</div>
             <div className="table_row">750 kg</div>
-            <div className="table_row">1200x800x1200</div>
+            <div className="table_row">1200x800</div>
           </div>
         </div>
       </div>
