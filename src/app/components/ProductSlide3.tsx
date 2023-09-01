@@ -195,14 +195,6 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
         </div>
       </div>
 
-      <div className="mb-14">
-        <Image
-          src="/images/mozzarella_shredded/palette_size.png"
-          alt="palette_size"
-          width={153}
-          height={120}
-        />
-      </div>
       <div className="text-grey mb-14">
         <h2 className="p_header">NON IQF Logistic information</h2>
         <div>
@@ -302,15 +294,6 @@ const ProductSlide3 = ({ onClose }: ProductSlideProps) => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="mb-14">
-        <Image
-          src="/images/mozzarella_shredded/palette_size.png"
-          alt="palette_size"
-          width={153}
-          height={120}
-        />
       </div>
     </ProductSlideContainer>
   );
