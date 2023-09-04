@@ -17,7 +17,7 @@ const HeaderBanner = ({ title, imageUrl }: HeaderBannerProps) => {
           objectPosition="center"
         />
         <div className="flex h-32 w-20 md:h-20 md:w-12 lg:h-32 lg:w-20 pb-4"></div>
-        <div className="text-3xl sm:text-5xl lg:text-[71px] font-bold text-white ml-8 sm:ml-20 lg:ml-44 max-w-[400px] sm:max-w-[600px]">
+        <div className="text-3xl sm:text-5xl lg:text-[71px] font-bold text-white ml-8 sm:ml-20 lg:ml-44 max-w-[400px] sm:max-w-[600px] relative">
           {title}
         </div>
       </div>
