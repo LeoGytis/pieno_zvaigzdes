@@ -7,9 +7,6 @@ const NavBar: any = () => {
         <div className="flex items-center w-200 sm:w-[320px] pb-4 md:pb-0">
           <Image src="/logo.png" alt="logo" width={500} height={500} />
         </div>
-        <div className="flex items-center text-xs sm:text-base text-white ">
-          <div>EN | Produktų paieška | &#9740; | Meniu | &#9776;</div>
-        </div>
       </div>
     </div>
   );
