@@ -5,7 +5,12 @@ import HeaderBanner from "../components/HeaderBanner";
 const PrivateProducts = () => {
   return (
     <>
-      <HeaderBanner title="Private label" />
+      {/* <HeaderBanner title="Private label" />
+       */}
+      <HeaderBanner
+        title="Private label"
+        imageUrl="/images/private_header.png"
+      />
 
       <div className="w-full md:max-h-64 flex flex-col md:flex-row justify-between bg-white p-7 pt-12 pb-14 border border-y-zinc-200">
         <div className="flex md:w-1/5 flex-col gap-4 justify-center items-center md:items-start md:pl-8 pb-10 md:pb-0 ">

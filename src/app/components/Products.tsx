@@ -29,7 +29,10 @@ const Products = () => {
 
   return (
     <>
-      <HeaderBanner title="Business solutions & ingredients" />
+      <HeaderBanner
+        title="Business solutions & ingredients"
+        imageUrl="/images/business_header.png"
+      />
 
       <div className="w-full md:max-h-64 flex flex-col md:flex-row justify-between bg-white p-7 pt-12 pb-14">
         <div className="flex md:w-1/5 flex-col gap-4 justify-center items-center md:items-start md:pl-8 pb-10 md:pb-0">
