@@ -5,8 +5,6 @@ import HeaderBanner from "../components/HeaderBanner";
 const PrivateProducts = () => {
   return (
     <>
-      {/* <HeaderBanner title="Private label" />
-       */}
       <HeaderBanner
         title="Private label"
         imageUrl="/images/private_header.png"
